@@ -74,7 +74,9 @@ var dontShowShemeDataMenuPagesList = [
    "java-api.html",
    "sa1.html",
    "sa2.html",
-   "lisp.html"
+   "lisp.html",
+   "code.html",
+   "admin.html"
 ];
 var lastSelectedNodeId = null;
 var lastSelectedEdgeId = null;

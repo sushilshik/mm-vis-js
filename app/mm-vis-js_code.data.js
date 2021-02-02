@@ -953,7 +953,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_165",
           "x": 65437,
-          "y": 29642,
+          "y": 34962,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -987,7 +987,7 @@ var schemeData =
           "label": "file path: ./utils/mvj-code.js",
           "id": "indx1_166",
           "x": 66319,
-          "y": 29637,
+          "y": 34957,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1017,7 +1017,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_167",
           "x": 66821,
-          "y": 29625
+          "y": 34945
         },
         "indx1_168": {
           "color": {
@@ -1048,7 +1048,7 @@ var schemeData =
           "label": "#!/usr/local/bin/node\n\nvar pathDelimiter = \"/\";\n\nvar fs = require('fs');\n\nvar userConfPath = \"../user-conf.json\";\nvar rootBackupDirPath = \"/tmp/mm-vis-js_code_backup/\";\nif (!fs.existsSync(rootBackupDirPath)){\n   fs.mkdirSync(rootBackupDirPath);\n}\n\nvar path = process.argv[2]; \nconsole.log(\"mvj-code->dataPath: \" + path);\n\nvar projectName = process.argv[3]; \nconsole.log(\"mvj-code->projectName: \" + projectName);\n\nvar runProject = process.argv[4];\nif (typeof runProject === \"undefined\" && runProject != \"true\") runProject = \"false\";\nconsole.log(\"mvj-code->runProject: \" + runProject);\n\nvar contents = fs.readFileSync(path, 'utf8');\n//contents = contents.replace(/^var schemeData =/, \"\");\ncontents = contents.split(\"\\n\");\ncontents.shift();\ncontents.pop();\ncontents = contents.join(\"\\n\");\n\nvar data = JSON.parse(contents);\n\nvar nodes = data.canvas1Data.nodes._data;\nvar edges = data.canvas1Data.edges._data;\n\nvar files = {};\nvar setupNodeId;\nvar setup = {};",
           "id": "indx1_168",
           "x": 67132,
-          "y": 29535,
+          "y": 34855,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -1083,7 +1083,7 @@ var schemeData =
           "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code file for project name: \" + projectName)) {\n\t\tfiles[key] = {rootNodeId: key, projectName: projectName};\n\t}\n}\n",
           "id": "indx1_169",
           "x": 67629,
-          "y": 29918,
+          "y": 35238,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1118,7 +1118,7 @@ var schemeData =
           "label": "for (var key in files) {\n\tvar rootNodeId = files[key].rootNodeId;\n\tvar filePath;\n\tvar filePathNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == rootNodeId) {\n\t\t\tfilePathNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].filePathNodeId = filePathNodeId\n\t\tfilePath = nodes[filePathNodeId].label.replace(\"file path: \", \"\");\n\tfiles[key].filePath = filePath;\n}\n",
           "id": "indx1_170",
           "x": 67569,
-          "y": 30076,
+          "y": 35396,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1153,7 +1153,7 @@ var schemeData =
           "label": "for (var key in files) {\n\tvar filePathNodeId = files[key].filePathNodeId;\n\tvar fileContentPointNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == filePathNodeId) {\n\t\t\tfileContentPointNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentPointNodeId = fileContentPointNodeId\n}",
           "id": "indx1_171",
           "x": 67557,
-          "y": 30262,
+          "y": 35582,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1189,7 +1189,7 @@ var schemeData =
           "label": "function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {\n   var nodeCode = nodes[rootCodeNodeId].label;\n\n   var matchResults = nodeCode.match(/generate$k$Code1[\\s\\S]*?generate$k$Code2/g);\n   if (matchResults !== null) {\n      for (var i = 0; i < matchResults.length; i++) {\n         //console.log(matchResults[i]);\n         var codeToRun = matchResults[i].replace(/generate$k$Code1([\\s\\S]*?)generate$k$Code2/g, \"$1\");\n         //console.log(codeToRun);\n         var codeFunction = new Function(\"setup\", codeToRun);\n         var fResult = codeFunction(setup);\n         //console.log(fResult);\n         nodeCode = nodeCode.replace(matchResults[i],fResult);\n      }\n   }\n   nodeCode = nodeCode.replace(/generate\\$k\\$Code/g,\"generateCode\");\n\n   var code = nodeCode + \"\\n\";\n\tvar nodeBranchesNodesIds = [];\n\tfor (var keyE in edges) {\n\t\tif ((edges[keyE].from == rootCodeNodeId) && (edges[keyE].label == \"code\")) {\n\t\t\tnodeBranchesNodesIds.push(edges[keyE].to);\n\t\t}\n\t}\n\tvar branchCodeNodes = [];\n\tnodeBranchesNodesIds.forEach(function(branchNodeId) {\n\t\tbranchCodeNodes.push(nodes[branchNodeId]);\n\t});\n        if (branchCodeNodes.length > 0 && typeof branchCodeNodes[0] === \"undefined\") {\n           var z = [];\n           nodeBranchesNodesIds.forEach(function(nodeId) {\n                for(var key1 in edges) {\n                        if (edges[key1].to == nodeId) {\n                                z.push(key1);\n                        }\n                }\n           });\n                console.log(z);\n        }\n\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\t\tcode = code + collectCodeNodesContent(branchNode.id, nodes, edges);\n\t\t\t});\n\treturn code;\n}",
           "id": "indx1_172",
           "x": 67700,
-          "y": 31324,
+          "y": 36644,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1224,7 +1224,7 @@ var schemeData =
           "label": "for (var key in files) {\n\tvar fileContentPointNodeId = files[key].fileContentPointNodeId;\n\tvar fileContentNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == fileContentPointNodeId) {\n\t\t\tfileContentNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentNodeId = fileContentNodeId\n\tfileContent = collectCodeNodesContent(fileContentNodeId, nodes, edges);\n\tfiles[key].fileContent = fileContent;\n}",
           "id": "indx1_173",
           "x": 67608,
-          "y": 32019,
+          "y": 37339,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1259,7 +1259,7 @@ var schemeData =
           "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code setup for project name: \" + projectName)) {\n\t\tsetupNodeId = key;\n\t}\n}",
           "id": "indx1_174",
           "x": 67638,
-          "y": 30390,
+          "y": 35710,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1295,7 +1295,7 @@ var schemeData =
           "label": "for (var keyE in edges) {\n   if (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== \"undefined\")) {\n      var nodeId = edges[keyE].to;\n      if (nodes[nodeId].label.startsWith(\"projectPath\")) {\n         setup[\"projectPath\"] = nodes[nodeId].label.replace(\"projectPath: \", \"\");\n      }\n      if (nodes[nodeId].label.startsWith(\"backupPaths\")) {\n         setup[\"backupPaths\"] = nodes[nodeId].label.replace(\"backupPaths: \", \"\");\n         setup[\"backupPaths\"] = JSON.parse(setup[\"backupPaths\"]);\n      }\n      if (nodes[nodeId].label.startsWith(\"jsFilesLinksParam\")) {\n         setup[\"jsFilesLinksParam\"] = nodes[nodeId].label.replace(\"jsFilesLinksParam:\", \"\").trim();\n         setup[\"jsFilesLinksParam\"] = parseInt(setup[\"jsFilesLinksParam\"], 10);\n      }\n      if (nodes[nodeId].label.startsWith(\"readLocalUserConfig\")) {\n         setup[\"readLocalUserConfig\"] = nodes[nodeId].label.replace(\"readLocalUserConfig:\", \"\").trim();\n      }\n      if (nodes[nodeId].label.startsWith(\"runProjectCommand\")) {\n         setup[\"runProjectCommand\"] = nodes[nodeId].label.replace(\"runProjectCommand:\", \"\").trim();\n      }\n   }\n}",
           "id": "indx1_175",
           "x": 67688,
-          "y": 30599,
+          "y": 35919,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1331,7 +1331,7 @@ var schemeData =
           "label": "var date = new Date();\nvar backupDirPath = rootBackupDirPath + projectName + \"_\" + date + \"/\";\nif (!fs.existsSync(backupDirPath)){\n   fs.mkdirSync(backupDirPath);\n}\n\nvar shell1 = require('child_process').execSync ; \nsetup[\"backupPaths\"].forEach(function(backupPath) {\n   console.log(\"backupPath: \" + backupPath);\n   var command = \"rsync -av \" +\n                 \"--exclude=.git \" +\n                 \"--exclude=news*.data.js* \" +\n                 \"--exclude=news*.data*.js \" +\n                 \"--exclude=newsDownloadedData \" + \n                 \"--exclude=2020.09.01_backup '\" + \n                 backupPath + \"' '\" + \n                 backupDirPath + \"'\";\n   console.log(command);\n   shell1(command);\n});\n\nvar projectPath = setup[\"projectPath\"];\nif (!fs.existsSync(projectPath)){\n   console.log(\"fs.mkdirSync(projectPath): \" +  projectPath);\n   //fs.mkdirSync(projectPath);\n   mkdirRecursiveSync(projectPath, pathDelimiter);\n}\n\nfor (var key in files) {\n   var filePath = projectPath + \"/\" + files[key].filePath;\n   var fileDirPath = filePath.split(pathDelimiter);\n   fileDirPath.pop();\n   fileDirPath = fileDirPath.join(pathDelimiter);\n   mkdirRecursiveSync(fileDirPath, pathDelimiter);\n   var fileContent = files[key].fileContent;\n   console.log(\"filePath: \" + filePath);\n   fs.writeFileSync(filePath, fileContent);\n}\n\nif (runProject == \"true\" && typeof setup[\"runProjectCommand\"] === \"undefined\") {\n   //\"runProjectResult:\" - delimiter. In mvj-serv.js output of mvj-code.js is separated by this delimiter.\n   //to return result of \"runProject\" operation\n   console.log(\"runProjectResult:\");\n   console.log(\"ERROR: typeof runProjectCommand === 'undefined'\");\n}\nif (runProject == \"true\" && typeof setup[\"runProjectCommand\"] !== \"undefined\" &&\n    setup[\"runProjectCommand\"] == \"\") {\n   console.log(\"runProjectResult:\");\n   console.log(\"ERROR: runProjectCommand == ''\");\n}\n\nvar shell2 = require('child_process').execSync;\n\nif (typeof setup[\"runProjectCommand\"] !== \"undefined\" &&\n    setup[\"runProjectCommand\"] != \"\" &&\n    runProject == \"true\") {\n   console.log(\"runProjectCommand: \" + setup[\"runProjectCommand\"]);\n   result = shell2(setup[\"runProjectCommand\"]).toString();\n   console.log(\"runProjectResult:\");\n   console.log(result);\n}",
           "id": "indx1_176",
           "x": 67681,
-          "y": 32549,
+          "y": 37869,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -1777,7 +1777,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditNodesMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar cancelEdgeEditVar = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastEditedEdgesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar edgeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news11.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news41.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news52.html\",\n   \"news53.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"news7.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"youtube3.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music1.html\",\n   \"music2.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\",\n   \"lisp.html\"\n];\nvar lastSelectedNodeId = null;\nvar lastSelectedEdgeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\ndocument.alertCounter = 0;\nvar duplicateGraphPrefix = \"index-a_\";\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditNodesMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar cancelEdgeEditVar = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastEditedEdgesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar edgeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news11.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news41.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news52.html\",\n   \"news53.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"news7.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"youtube3.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music1.html\",\n   \"music2.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\",\n   \"lisp.html\",\n   \"code.html\",\n   \"admin.html\"\n];\nvar lastSelectedNodeId = null;\nvar lastSelectedEdgeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\ndocument.alertCounter = 0;\nvar duplicateGraphPrefix = \"index-a_\";\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -5938,
           "id": "indx1_189",
@@ -4853,7 +4853,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/ruby.html",
           "id": "indx1_288",
           "x": 72461,
-          "y": 44123,
+          "y": 49443,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -6595,7 +6595,7 @@ var schemeData =
           "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};\n",
           "id": "indx1_343",
           "x": 67532,
-          "y": 31830,
+          "y": 37150,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7522,7 +7522,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_432",
           "x": 65257,
-          "y": 33666,
+          "y": 38986,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7558,7 +7558,7 @@ var schemeData =
           "label": "file path: ./app/index.html",
           "id": "indx1_433",
           "x": 66282,
-          "y": 33659,
+          "y": 38979,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7590,7 +7590,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_434",
           "x": 66801,
-          "y": 33645
+          "y": 38965
         },
         "indx1_435": {
           "color": {
@@ -7623,7 +7623,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/index.html",
           "id": "indx1_435",
           "x": 72721,
-          "y": 34504,
+          "y": 39824,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7631,7 +7631,7 @@ var schemeData =
         "indx1_436": {
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Index &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67371,
-          "y": 33587,
+          "y": 38907,
           "id": "indx1_436",
           "shape": "box",
           "link": "",
@@ -7648,7 +7648,7 @@ var schemeData =
         "indx1_437": {
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67780,
-          "y": 33909,
+          "y": 39229,
           "id": "indx1_437",
           "shape": "box",
           "link": "",
@@ -7665,7 +7665,7 @@ var schemeData =
         "indx1_438": {
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 67950,
-          "y": 34439,
+          "y": 39759,
           "id": "indx1_438",
           "shape": "box",
           "link": "",
@@ -7682,7 +7682,7 @@ var schemeData =
         "indx1_439": {
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67798,
-          "y": 35130,
+          "y": 40450,
           "id": "indx1_439",
           "shape": "box",
           "link": "",
@@ -7699,7 +7699,7 @@ var schemeData =
         "indx1_440": {
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0167, x: 15703, y: 7380};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68076,
-          "y": 35837,
+          "y": 41157,
           "id": "indx1_440",
           "shape": "box",
           "link": "",
@@ -7743,7 +7743,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_441",
           "x": 65329,
-          "y": 36964,
+          "y": 42284,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7779,7 +7779,7 @@ var schemeData =
           "label": "file path: ./app/base.html",
           "id": "indx1_442",
           "x": 66354,
-          "y": 36957,
+          "y": 42277,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7811,7 +7811,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_443",
           "x": 66873,
-          "y": 36943
+          "y": 42263
         },
         "indx1_444": {
           "color": {
@@ -7844,7 +7844,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/base.html",
           "id": "indx1_444",
           "x": 72610,
-          "y": 37725,
+          "y": 43045,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7877,7 +7877,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Base &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67443,
-          "y": 36885,
+          "y": 42205,
           "id": "indx1_445",
           "shape": "box",
           "link": "",
@@ -7910,7 +7910,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67852,
-          "y": 37207,
+          "y": 42527,
           "id": "indx1_446",
           "shape": "box",
           "link": "",
@@ -7943,7 +7943,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68022,
-          "y": 37737,
+          "y": 43057,
           "id": "indx1_447",
           "shape": "box",
           "link": "",
@@ -7977,7 +7977,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67869,
-          "y": 38427,
+          "y": 43747,
           "id": "indx1_448",
           "shape": "box",
           "link": "",
@@ -8011,7 +8011,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.012, x: 109274, y: 26359};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68147,
-          "y": 39149,
+          "y": 44469,
           "id": "indx1_449",
           "shape": "box",
           "link": "",
@@ -8048,7 +8048,7 @@ var schemeData =
           "label": "file path: ./utils/templates/index.data.js.erb",
           "id": "indx1_450",
           "x": 67194,
-          "y": 64772,
+          "y": 70092,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8083,7 +8083,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var schemeData = \n{\n\t\"canvas1Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"canvas2Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"setup\": {\n\t\t\"scale\": 1,\n\t\t\"viewPosition\": {\n\t\t\t\"x\": 827.4214000000001,\n\t\t\t\"y\": 697.1176\n\t\t}\n\t}\n}\n;",
           "x": 68409,
-          "y": 65490,
+          "y": 70810,
           "id": "indx1_451",
           "shape": "box",
           "link": "",
@@ -8120,7 +8120,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/templates/\nindex.data.js.erb",
           "id": "indx1_452",
           "x": 72808,
-          "y": 65990,
+          "y": 71310,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8155,7 +8155,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_453",
           "x": 66177,
-          "y": 64755,
+          "y": 70075,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8187,7 +8187,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_454",
           "x": 67931,
-          "y": 64771
+          "y": 70091
         },
         "indx1_455": {
           "color": {
@@ -8220,7 +8220,7 @@ var schemeData =
           "label": "file path: ./utils/templates/index.html.erb",
           "id": "indx1_455",
           "x": 66307,
-          "y": 68893,
+          "y": 74213,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8256,7 +8256,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/templates/\nindex.html.erb",
           "id": "indx1_456",
           "x": 72752,
-          "y": 70246,
+          "y": 75566,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8291,7 +8291,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_457",
           "x": 65289,
-          "y": 68876,
+          "y": 74196,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8323,12 +8323,12 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_458",
           "x": 67043,
-          "y": 68892
+          "y": 74212
         },
         "indx1_459": {
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67578,
-          "y": 68862,
+          "y": 74182,
           "id": "indx1_459",
           "shape": "box",
           "link": "",
@@ -8345,7 +8345,7 @@ var schemeData =
         "indx1_460": {
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68011,
-          "y": 69189,
+          "y": 74509,
           "id": "indx1_460",
           "shape": "box",
           "link": "",
@@ -8362,7 +8362,7 @@ var schemeData =
         "indx1_461": {
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68184,
-          "y": 69703,
+          "y": 75023,
           "id": "indx1_461",
           "shape": "box",
           "link": "",
@@ -8379,7 +8379,7 @@ var schemeData =
         "indx1_462": {
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:350px;\n\tleft:170px;\n\tz-index:299;\n\twidth:250px;\n\theight:120px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
           "x": 68026,
-          "y": 70266,
+          "y": 75586,
           "id": "indx1_462",
           "shape": "box",
           "link": "",
@@ -8396,7 +8396,7 @@ var schemeData =
         "indx1_463": {
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = false; \n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><input id=\"node-label\" value=\"new value\" /></td>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"<%= pageDataJsFileName %>?generateCode1 return setup['jsFilesLinksParam']; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup['jsFilesLinksParam']; generateCode2\"></script>\n</body>\n</html>",
           "x": 68394,
-          "y": 70739,
+          "y": 76059,
           "id": "indx1_463",
           "shape": "box",
           "link": "",
@@ -8682,7 +8682,7 @@ var schemeData =
           "label": "file path: ./e2eTests/common_test.js",
           "id": "indx1_475",
           "x": 66453,
-          "y": 73635,
+          "y": 78955,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8717,7 +8717,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Feature('Basic test');\n\nScenario('navigate to homepage', I => {\n  I.amOnPage('http://app-express:3000/index.html');\n  I.saveScreenshot('frontpageScreenshot.png');\n  I.see('showData');\n});",
           "x": 67579,
-          "y": 73641,
+          "y": 78961,
           "id": "indx1_476",
           "shape": "box",
           "link": "",
@@ -8754,7 +8754,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ncommon_test.js",
           "id": "indx1_477",
           "x": 72640,
-          "y": 74742,
+          "y": 80062,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8789,7 +8789,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_478",
           "x": 65475,
-          "y": 73635,
+          "y": 78955,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8821,7 +8821,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_479",
           "x": 67088,
-          "y": 73624
+          "y": 78944
         },
         "indx1_480": {
           "color": {
@@ -8854,7 +8854,7 @@ var schemeData =
           "label": "file path: ./e2eTests/docker.conf.js",
           "id": "indx1_480",
           "x": 66468,
-          "y": 77671,
+          "y": 82991,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8889,7 +8889,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "exports.config = {\n  tests: './*-test.js',\n  output: './output',\n  helpers: {\n    WebDriver: {\n      url: 'http://app-express:3000',\n      host: 'chrome-container',\n      browser: 'chrome',\n      smartWait: 5000,\n      restart: false,\n      waitForTimeout: 10000,\n      timeouts: {\n        script: 60000,\n        'page load': 60000,\n      },\n      coloredLogs: true,\n      desiredCapabilities: {\n        chromeOptions: {\n          // https://peter.sh/experiments/chromium-command-line-switches/\n          args: [\n            '--headless',\n            '--disable-gpu', // Temporarily needed if running headless on Windows\n            // '--no-sandbox',\n            // '--disable-setuid-sandbox',\n          ],\n        },\n      },\n    },\n  },\n  bootstrap: false,\n  mocha: {},\n  name: 'codeceptjs-docker',\n};",
           "x": 67621,
-          "y": 77857,
+          "y": 83177,
           "id": "indx1_481",
           "shape": "box",
           "link": "",
@@ -8926,7 +8926,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ndocker.conf.js",
           "id": "indx1_482",
           "x": 72196,
-          "y": 78979,
+          "y": 84299,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8961,7 +8961,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_483",
           "x": 65490,
-          "y": 77671,
+          "y": 82991,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8993,7 +8993,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_484",
           "x": 67103,
-          "y": 77660
+          "y": 82980
         },
         "indx1_485": {
           "color": {
@@ -9026,7 +9026,7 @@ var schemeData =
           "label": "file path: ./e2eTests/testServer.js",
           "id": "indx1_485",
           "x": 66509,
-          "y": 81923,
+          "y": 87243,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9061,7 +9061,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "const express = require('express');\n\nconst app = express();\n\nvar path = require('path');\n\napp.use(express.static(\"/home/node/public\"));\napp.get('/', function(req, res) {\n\tres.sendFile(path.join(__dirname, \"home/node/public\", \"index.html\"));\n});\n\nconst server = app.listen(3000, () => {\n  const { port } = server.address();\n  console.log(`Example app listening on port ${port}`);\n});",
           "x": 67630,
-          "y": 82001,
+          "y": 87321,
           "id": "indx1_486",
           "shape": "box",
           "link": "",
@@ -9098,7 +9098,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ntestServer.js",
           "id": "indx1_487",
           "x": 71890,
-          "y": 83231,
+          "y": 88551,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9133,7 +9133,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_488",
           "x": 65531,
-          "y": 81923,
+          "y": 87243,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9165,7 +9165,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_489",
           "x": 67144,
-          "y": 81912
+          "y": 87232
         },
         "indx1_490": {
           "color": {
@@ -9197,7 +9197,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_490",
           "x": 65367,
-          "y": 39910,
+          "y": 45230,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9233,7 +9233,7 @@ var schemeData =
           "label": "file path: ./app/culture.html",
           "id": "indx1_491",
           "x": 66392,
-          "y": 39903,
+          "y": 45223,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9265,7 +9265,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_492",
           "x": 66911,
-          "y": 39889
+          "y": 45209
         },
         "indx1_493": {
           "color": {
@@ -9298,7 +9298,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/culture.html",
           "id": "indx1_493",
           "x": 73026,
-          "y": 40597,
+          "y": 45917,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9333,7 +9333,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Culture &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67481,
-          "y": 39831,
+          "y": 45151,
           "id": "indx1_494",
           "shape": "box",
           "link": "",
@@ -9368,7 +9368,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67890,
-          "y": 40153,
+          "y": 45473,
           "id": "indx1_495",
           "shape": "box",
           "link": "",
@@ -9403,7 +9403,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68060,
-          "y": 40683,
+          "y": 46003,
           "id": "indx1_496",
           "shape": "box",
           "link": "",
@@ -9439,7 +9439,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67910,
-          "y": 41383,
+          "y": 46703,
           "id": "indx1_497",
           "shape": "box",
           "link": "",
@@ -9475,7 +9475,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.016, x: 95937, y: 8521};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68178,
-          "y": 42130,
+          "y": 47450,
           "id": "indx1_498",
           "shape": "box",
           "link": "",
@@ -11226,7 +11226,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_549",
           "x": 65322,
-          "y": 43279,
+          "y": 48599,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11262,7 +11262,7 @@ var schemeData =
           "label": "file path: ./app/ruby.html",
           "id": "indx1_550",
           "x": 66347,
-          "y": 43272,
+          "y": 48592,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11294,7 +11294,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_551",
           "x": 66866,
-          "y": 43258
+          "y": 48578
         },
         "indx1_552": {
           "color": {
@@ -11362,7 +11362,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Ruby &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67436,
-          "y": 43200,
+          "y": 48520,
           "id": "indx1_553",
           "shape": "box",
           "link": "",
@@ -11397,7 +11397,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67845,
-          "y": 43522,
+          "y": 48842,
           "id": "indx1_554",
           "shape": "box",
           "link": "",
@@ -11432,7 +11432,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68015,
-          "y": 44052,
+          "y": 49372,
           "id": "indx1_555",
           "shape": "box",
           "link": "",
@@ -11467,7 +11467,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67865,
-          "y": 44752,
+          "y": 50072,
           "id": "indx1_556",
           "shape": "box",
           "link": "",
@@ -11503,7 +11503,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.015, x: 98162, y: 11141};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68133,
-          "y": 45499,
+          "y": 50819,
           "id": "indx1_557",
           "shape": "box",
           "link": "",
@@ -12307,7 +12307,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_583",
           "x": 65357,
-          "y": 46833,
+          "y": 52153,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12342,7 +12342,7 @@ var schemeData =
           "label": "file path: ./app/javascript.html",
           "id": "indx1_584",
           "x": 66382,
-          "y": 46826,
+          "y": 52146,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12374,7 +12374,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_585",
           "x": 66901,
-          "y": 46812
+          "y": 52132
         },
         "indx1_586": {
           "color": {
@@ -12406,7 +12406,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/javascript.html",
           "id": "indx1_586",
           "x": 73637,
-          "y": 47510,
+          "y": 52830,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12441,7 +12441,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>JavaScript &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67471,
-          "y": 46754,
+          "y": 52074,
           "id": "indx1_587",
           "shape": "box",
           "link": "",
@@ -12476,7 +12476,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67876,
-          "y": 47076,
+          "y": 52396,
           "id": "indx1_588",
           "shape": "box",
           "link": "",
@@ -12511,7 +12511,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68048,
-          "y": 47606,
+          "y": 52926,
           "id": "indx1_589",
           "shape": "box",
           "link": "",
@@ -12546,7 +12546,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67900,
-          "y": 48306,
+          "y": 53626,
           "id": "indx1_590",
           "shape": "box",
           "link": "",
@@ -12582,7 +12582,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0156, x: 102403, y: 11800};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"javascript.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68168,
-          "y": 49053,
+          "y": 54373,
           "id": "indx1_591",
           "shape": "box",
           "link": "",
@@ -12665,7 +12665,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_598",
           "x": 65514,
-          "y": 50523,
+          "y": 55843,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12701,7 +12701,7 @@ var schemeData =
           "label": "file path: ./app/music1.html",
           "id": "indx1_599",
           "x": 66539,
-          "y": 50516,
+          "y": 55836,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -12733,7 +12733,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_600",
           "x": 67058,
-          "y": 50502
+          "y": 55822
         },
         "indx1_601": {
           "color": {
@@ -12766,7 +12766,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/music1.html",
           "id": "indx1_601",
           "x": 73109,
-          "y": 51200,
+          "y": 56520,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -12801,7 +12801,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Music1 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67628,
-          "y": 50444,
+          "y": 55764,
           "id": "indx1_602",
           "shape": "box",
           "link": "",
@@ -12836,7 +12836,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68033,
-          "y": 50766,
+          "y": 56086,
           "id": "indx1_603",
           "shape": "box",
           "link": "",
@@ -12871,7 +12871,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68205,
-          "y": 51296,
+          "y": 56616,
           "id": "indx1_604",
           "shape": "box",
           "link": "",
@@ -12906,7 +12906,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68057,
-          "y": 51996,
+          "y": 57316,
           "id": "indx1_605",
           "shape": "box",
           "link": "",
@@ -12942,7 +12942,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98173, y: 12615};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68325,
-          "y": 52743,
+          "y": 58063,
           "id": "indx1_606",
           "shape": "box",
           "link": "",
@@ -14736,7 +14736,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_662",
           "x": 65564,
-          "y": 57956,
+          "y": 63276,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14772,7 +14772,7 @@ var schemeData =
           "label": "file path: ./app/mm-vis-js_code.html",
           "id": "indx1_663",
           "x": 66589,
-          "y": 57949,
+          "y": 63269,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14804,7 +14804,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_664",
           "x": 67108,
-          "y": 57935
+          "y": 63255
         },
         "indx1_665": {
           "color": {
@@ -14837,7 +14837,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/mm-vis-js_code.html",
           "id": "indx1_665",
           "x": 75026,
-          "y": 58633,
+          "y": 63953,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14872,7 +14872,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js code &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67678,
-          "y": 57877,
+          "y": 63197,
           "id": "indx1_666",
           "shape": "box",
           "link": "",
@@ -14907,7 +14907,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68083,
-          "y": 58199,
+          "y": 63519,
           "id": "indx1_667",
           "shape": "box",
           "link": "",
@@ -14942,7 +14942,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68255,
-          "y": 58729,
+          "y": 64049,
           "id": "indx1_668",
           "shape": "box",
           "link": "",
@@ -14977,7 +14977,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68107,
-          "y": 59429,
+          "y": 64749,
           "id": "indx1_669",
           "shape": "box",
           "link": "",
@@ -15013,7 +15013,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 65673, y: 17508};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_code.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68375,
-          "y": 60176,
+          "y": 65496,
           "id": "indx1_670",
           "shape": "box",
           "link": "",
@@ -17418,7 +17418,7 @@ var schemeData =
           "label": "app.listen(port, host);\n\nvar options = {\n  key: fs.readFileSync('server.key'),\n  cert: fs.readFileSync('server.cert')\n};\nhttps.createServer( options, function(req,res) {\n    app.handle( req, res );\n}).listen(httpsPort, function() {\n    console.log(\"mvj-serv.js started\");\n});",
           "id": "indx1_746",
           "x": 65026,
-          "y": 28139,
+          "y": 31803,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -18384,7 +18384,7 @@ var schemeData =
           "id": "indx1_785",
           "x": 21875,
           "y": -7604,
-          "label": "var buildData = {\n   \"dataFilesNamesList\": [\n      \"index.data.js\",\n      \"mm-vis-js_code.data.js\",\n      \"mm-vis-js_docs.data.js\",\n      \"base.data.js\",\n      \"culture.data.js\",\n      \"ruby.data.js\",\n      \"javascript.data.js\",\n      \"python.data.js\",\n      \"music.data.js\",\n      \"math.data.js\",\n      \"code.data.js\",\n      \"engineering.data.js\",\n      \"news1.data.js\",\n      \"news2.data.js\",\n      \"news3.data.js\",\n      \"news4.data.js\",\n      \"news41.data.js\",\n      \"news5.data.js\",\n      \"news51.data.js\",\n      \"news52.data.js\",\n      \"news6.data.js\",\n      \"news61.data.js\",\n      \"timelines.data.js\",\n      \"nature.data.js\",\n      \"sa1.data.js\",\n      \"java.data.js\",\n      \"java-api.data.js\",\n      \"youtube1.data.js\",\n      \"youtube2.data.js\"\n      ],\n      \"codeNodeId\": codeNodeId,\n      \"nodesColumn1\": [],\n      \"nodesColumn2\": [],\n      \"pagesDatasMap\": {},\n      \"statsSchemeShiftY\": 2000\n   }; ",
+          "label": "var buildData = {\n   \"dataFilesNamesList\": [\n      \"index.data.js\",\n      \"mm-vis-js_code.data.js\",\n      \"mm-vis-js_docs.data.js\",\n      \"base.data.js\",\n      \"culture.data.js\",\n      \"ruby.data.js\",\n      \"javascript.data.js\",\n      \"python.data.js\",\n      \"music1.data.js\",\n      \"music2.data.js\",\n      \"math.data.js\",\n      \"code.data.js\",\n      \"admin.data.js\",\n      \"engineering.data.js\",\n      \"news1.data.js\",\n      \"news11.data.js\",\n      \"news2.data.js\",\n      \"news3.data.js\",\n      \"news4.data.js\",\n      \"news41.data.js\",\n      \"news5.data.js\",\n      \"news51.data.js\",\n      \"news52.data.js\",\n      \"news53.data.js\",\n      \"news6.data.js\",\n      \"news61.data.js\",\n      \"news7.data.js\",\n      \"timelines.data.js\",\n      \"nature.data.js\",\n      \"sa1.data.js\",\n      \"java.data.js\",\n      \"java-api.data.js\",\n      \"lisp.data.js\",\n      \"lang.data.js\",\n      \"youtube1.data.js\",\n      \"youtube2.data.js\",\n      \"youtube3.data.js\"\n      ],\n      \"codeNodeId\": codeNodeId,\n      \"nodesColumn1\": [],\n      \"nodesColumn2\": [],\n      \"pagesDatasMap\": {},\n      \"statsSchemeShiftY\": 2000\n   }; ",
           "shape": "box",
           "link": "",
           "font": {
@@ -18625,7 +18625,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/mvj-code.js",
           "id": "indx1_812",
           "x": 73026,
-          "y": 30158,
+          "y": 35478,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -20713,7 +20713,7 @@ var schemeData =
         "indx1_1009": {
           "id": "indx1_1009",
           "x": 65026,
-          "y": 19009,
+          "y": 22874,
           "label": "function getPage(newsUrl, getRSSAnswer) {\n   var url = require(\"url\");\n   var path = url.parse(newsUrl).path;\n   var host = url.parse(newsUrl).host;\n   const https = require('https')\n   //https://www.linux.org.ru/section-rss.jsp\n   const options = {\n     hostname: host,\n     port: 443,\n     path: path,\n     method: 'GET',\n     headers: {\n        'Content-Type': 'text/html'\n     }\n   }\n\n   var req = https.request(options, function(res) {\n      //console.log(\"statusCode: \", res.statusCode);\n      //console.log(\"headers: \", res.headers);\n\n      res.setEncoding('utf8');\n      res.on('data', function(d) {\n         //process.stdout.write(d);\n         getRSSAnswer(d);\n      });\n   });\n\n   req.end();\n\n   req.on('error', function(e) {\n      console.error(e);\n   });\n}",
           "shape": "box",
           "link": "",
@@ -21165,13 +21165,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 110003, y: 17300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"admin.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.013, x: 106084, y: 18768};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"admin.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1026",
-          "x": 84552,
-          "y": 12487,
+          "x": 84580,
+          "y": 12481,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1027": {
           "color": {
@@ -25019,7 +25019,7 @@ var schemeData =
           "id": "indx1_1361",
           "x": 40539,
           "y": -9594,
-          "label": "jsFilesLinksParam:277",
+          "label": "jsFilesLinksParam:500",
           "shape": "box",
           "link": "",
           "font": {
@@ -25069,7 +25069,7 @@ var schemeData =
         "indx1_1364": {
           "id": "indx1_1364",
           "x": 67686,
-          "y": 30823,
+          "y": 36143,
           "label": "if (typeof setup[\"readLocalUserConfig\"] !== \"undefined\" && setup[\"readLocalUserConfig\"] == \"true\") {\n   setup[\"userConfData\"] = fs.readFileSync(userConfPath, 'utf8');\n}",
           "shape": "box",
           "link": "",
@@ -33597,7 +33597,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1733",
           "x": 65541,
-          "y": 61318,
+          "y": 66638,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33633,7 +33633,7 @@ var schemeData =
           "label": "file path: ./app/mm-vis-js_docs.html",
           "id": "indx1_1734",
           "x": 66566,
-          "y": 61311,
+          "y": 66631,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33665,7 +33665,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1735",
           "x": 67085,
-          "y": 61297
+          "y": 66617
         },
         "indx1_1736": {
           "color": {
@@ -33698,7 +33698,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/mm-vis-js_docs.html",
           "id": "indx1_1736",
           "x": 74998,
-          "y": 61995,
+          "y": 67315,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33733,7 +33733,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js docs &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67655,
-          "y": 61239,
+          "y": 66559,
           "id": "indx1_1737",
           "shape": "box",
           "link": "",
@@ -33768,7 +33768,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68060,
-          "y": 61561,
+          "y": 66881,
           "id": "indx1_1738",
           "shape": "box",
           "link": "",
@@ -33803,7 +33803,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68232,
-          "y": 62091,
+          "y": 67411,
           "id": "indx1_1739",
           "shape": "box",
           "link": "",
@@ -33838,7 +33838,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68084,
-          "y": 62791,
+          "y": 68111,
           "id": "indx1_1740",
           "shape": "box",
           "link": "",
@@ -33874,7 +33874,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.016, x: 95591, y: 10639};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_docs.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68352,
-          "y": 63538,
+          "y": 68858,
           "id": "indx1_1741",
           "shape": "box",
           "link": "",
@@ -37133,10 +37133,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "app.get(\"/getAllNews\", function(request, response){\n   if (getAllNewsProcessUp) return;\n   getAllNewsProcessUp = true;\n   response.set('Access-Control-Allow-Origin', '*');\n   //2020-08-27T16:45:00\n   //https://localhost:3001/getAllNews?startDateLine=2020-08-27T10:20:10\n   //http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\n   //curl \"http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\"\n   console.log(\"request.query: \" + request.query);\n   var queryStartDateLine = request.query.startDateLine;\n   var queryYoutubeDownload = request.query.youtube;\n\n   console.log(\"getAllNews\");\n\n   downloadedChannelsList = [];\n\n   var newsData = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: false,\n      downloadErrorsChannelsList: []\n   };\n   newsData.newsFilesData = {};\n   newsData.newsFilesData[\"news1.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news11.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news2.data.js\"] = {rootNodeId: \"indx1_352\"};\n   newsData.newsFilesData[\"news3.data.js\"] = {rootNodeId: \"indx1_274\"};\n   newsData.newsFilesData[\"news4.data.js\"] = {rootNodeId: \"indx1_459\"};\n   newsData.newsFilesData[\"news41.data.js\"] = {rootNodeId: \"indx1_273\"};\n   newsData.newsFilesData[\"news5.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news51.data.js\"] = {rootNodeId: \"indx1_245\"};\n   newsData.newsFilesData[\"news52.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news53.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news6.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news61.data.js\"] = {rootNodeId: \"indx1_251\"};\n   newsData.newsFilesData[\"news7.data.js\"] = {rootNodeId: \"indx1_251\"};\n   var newsDataYoutube = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: true,\n      downloadErrorsChannelsList: []\n   };\n   newsDataYoutube.newsFilesData = {};\n   newsDataYoutube.newsFilesData[\"youtube1.data.js\"] = {rootNodeId: \"indx1_1005\"};\n   newsDataYoutube.newsFilesData[\"youtube2.data.js\"] = {rootNodeId: \"indx1_1786\"};\n   newsDataYoutube.newsFilesData[\"youtube3.data.js\"] = {rootNodeId: \"indx1_1786\"};\n\n   console.log(\"request.query.youtube: \" + request.query.youtube);\n   if (typeof queryYoutubeDownload !== \"undefined\" && queryYoutubeDownload == \"true\") {\n      //console.log(\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\");\n      newsData = newsDataYoutube;\n   }\n\n   console.log(\"queryStartDateLine: \" + queryStartDateLine);\n   newsData.queryStartDate = moment(queryStartDateLine);\n\n   var fs = require('fs');\n\n   //var filePathPart = \"../app/\";\n\n   //newsData.allChannelsNodes = [];\n\n   //Collect news channels data from news files\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName, index) {\n      console.log(dataFileName);\n//if (index != 0) return;\n      var contents = fs.readFileSync(newsData.filePathPart + dataFileName, 'utf8');\n      var dataFileData = contents.trim();\n\n      dataFileData = dataFileData.split(\"\\n\");\n      dataFileData.shift();\n      dataFileData.pop();\n      dataFileData = dataFileData.join(\"\\n\");\n      dataFileData = JSON.parse(dataFileData);\n      newsData.newsFilesData[dataFileName].data = dataFileData;\n      newsData.newsFilesData[dataFileName].nodes = dataFileData.canvas1Data.nodes._data;\n      newsData.newsFilesData[dataFileName].edges = dataFileData.canvas1Data.edges._data;\n      newsData.newsFilesData[dataFileName].channelsNodes = [];\n\n      var rootNodeId = newsData.newsFilesData[dataFileName].rootNodeId;\n\n      var treeNodes = getTreeNodesAndEdges(\n         rootNodeId, \n         newsData.newsFilesData[dataFileName].nodes, \n         newsData.newsFilesData[dataFileName].edges).nodes;\n      console.log(\"treeNodes.length: \" + treeNodes.length);\n      treeNodes.forEach(function(node) {\n         if (newsData.youtubeDownload) {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" - YouTube\") &&\n                node.link.match(/.*youtube.*videos.*/) != null) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         } else {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" | Feed Node\")) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         }\n      });      \n   });\n\n   //Test data\n   //newsData.newsFilesData[\"youtube2.data.js\"].channelsNodes = [];\n   //newsData.newsFilesData[\"youtube3.data.js\"].channelsNodes = [];\n   //newsData.newsFilesData[\"youtube3.data.js\"].channelsNodes = [\n      //{link: \"https://www.youtube.com/user/JimmyKimmelLive/videos\", \n      //label: \"Jimmy Kimmel Live - YouTube\", id:\"indx1_391\"}];\n   //newsData.allChannelsMap = {};\n   //newsData.allChannelsMap[\"Jimmy Kimmel Live - YouTube\"] = {\n   //channelNode: {link: \"https://www.youtube.com/user/JimmyKimmelLive/videos\", \n   //label: \"Jimmy Kimmel Live - YouTube\", id:\"indx1_391\"},\n   //channelFileName: \"youtube3.data.js\"};\n\n   console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n      return a.toLowerCase().localeCompare(b.toLowerCase());\n   }));\n\n   //var dataFileData = {\"data\": contents};\n   //var answerLine = JSON.stringify(contents);\n\n   waitForTime(newsData.queryStartDate, true);\n\n   var allDownloadedData = newsDownloadProcess(newsData);\n   //saveAllDownloadedDataToFile(allDownloadedData, filePath);\n\n});",
+          "label": "app.get(\"/getAllNews\", function(request, response){\n   if (getAllNewsProcessUp) return;\n   getAllNewsProcessUp = true;\n   response.set('Access-Control-Allow-Origin', '*');\n   //2020-08-27T16:45:00\n   //https://localhost:3001/getAllNews?startDateLine=2020-08-27T10:20:10\n   //http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\n   //curl \"http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\"\n   console.log(\"request.query: \" + request.query);\n   var queryStartDateLine = request.query.startDateLine;\n   var queryYoutubeDownload = request.query.youtube;\n   var testRun = request.query.testRun;\n\n   console.log(\"getAllNews\");\n\n   downloadedChannelsList = [];\n\n   var newsData = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: false,\n      downloadErrorsChannelsList: [],\n      testRun: testRun\n   };\n   newsData.newsFilesData = {};\n   newsData.newsFilesData[\"news1.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news11.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news2.data.js\"] = {rootNodeId: \"indx1_352\"};\n   newsData.newsFilesData[\"news3.data.js\"] = {rootNodeId: \"indx1_274\"};\n   newsData.newsFilesData[\"news4.data.js\"] = {rootNodeId: \"indx1_459\"};\n   newsData.newsFilesData[\"news41.data.js\"] = {rootNodeId: \"indx1_273\"};\n   newsData.newsFilesData[\"news5.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news51.data.js\"] = {rootNodeId: \"indx1_245\"};\n   newsData.newsFilesData[\"news52.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news53.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news6.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news61.data.js\"] = {rootNodeId: \"indx1_251\"};\n   newsData.newsFilesData[\"news7.data.js\"] = {rootNodeId: \"indx1_251\"};\n   var newsDataYoutube = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: true,\n      downloadErrorsChannelsList: [],\n      testRun: testRun\n   };\n   newsDataYoutube.newsFilesData = {};\n   newsDataYoutube.newsFilesData[\"youtube1.data.js\"] = {rootNodeId: \"indx1_1005\"};\n   newsDataYoutube.newsFilesData[\"youtube2.data.js\"] = {rootNodeId: \"indx1_1786\"};\n   newsDataYoutube.newsFilesData[\"youtube3.data.js\"] = {rootNodeId: \"indx1_1786\"};\n\n   console.log(\"request.query.youtube: \" + request.query.youtube);\n   if (typeof queryYoutubeDownload !== \"undefined\" && queryYoutubeDownload == \"true\") {\n      //console.log(\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\");\n      newsData = newsDataYoutube;\n   }\n\n   console.log(\"queryStartDateLine: \" + queryStartDateLine);\n   newsData.queryStartDate = moment(queryStartDateLine);\n\n   var fs = require('fs');\n\n   //var filePathPart = \"../app/\";\n\n   //newsData.allChannelsNodes = [];\n\n   //Collect news channels data from news files\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName, index) {\n      console.log(dataFileName);\n//if (index != 0) return;\n      var contents = fs.readFileSync(newsData.filePathPart + dataFileName, 'utf8');\n      var dataFileData = contents.trim();\n\n      dataFileData = dataFileData.split(\"\\n\");\n      dataFileData.shift();\n      dataFileData.pop();\n      dataFileData = dataFileData.join(\"\\n\");\n      dataFileData = JSON.parse(dataFileData);\n      newsData.newsFilesData[dataFileName].data = dataFileData;\n      newsData.newsFilesData[dataFileName].nodes = dataFileData.canvas1Data.nodes._data;\n      newsData.newsFilesData[dataFileName].edges = dataFileData.canvas1Data.edges._data;\n      newsData.newsFilesData[dataFileName].channelsNodes = [];\n\n      var rootNodeId = newsData.newsFilesData[dataFileName].rootNodeId;\n\n      var treeNodes = getTreeNodesAndEdges(\n         rootNodeId, \n         newsData.newsFilesData[dataFileName].nodes, \n         newsData.newsFilesData[dataFileName].edges).nodes;\n      console.log(\"treeNodes.length: \" + treeNodes.length);\n      treeNodes.forEach(function(node) {\n         if (newsData.youtubeDownload) {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" - YouTube\") &&\n                node.link.match(/.*youtube.*videos.*/) != null) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         } else {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" | Feed Node\")) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         }\n      });      \n   });\n\n   if (typeof newsData.testRun !== \"undefined\" &&\n      testRun == \"true\") {\n      //Test data\n      newsData.newsFilesData[\"youtube2.data.js\"].channelsNodes = [];\n      newsData.newsFilesData[\"youtube3.data.js\"].channelsNodes = [];\n      newsData.newsFilesData[\"youtube3.data.js\"].channelsNodes = [\n         {link: \"https://www.youtube.com/user/JimmyKimmelLive/videos\", \n         label: \"Jimmy Kimmel Live - YouTube\", id:\"indx1_391\"}];\n      newsData.allChannelsMap = {};\n      newsData.allChannelsMap[\"Jimmy Kimmel Live - YouTube\"] = {\n      channelNode: {link: \"https://www.youtube.com/user/JimmyKimmelLive/videos\", \n      label: \"Jimmy Kimmel Live - YouTube\", id:\"indx1_391\"},\n      channelFileName: \"youtube3.data.js\"};\n   }\n\n   console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n      return a.toLowerCase().localeCompare(b.toLowerCase());\n   }));\n\n   //var dataFileData = {\"data\": contents};\n   //var answerLine = JSON.stringify(contents);\n\n   waitForTime(newsData, true);\n\n   var allDownloadedData = newsDownloadProcess(newsData);\n   //saveAllDownloadedDataToFile(allDownloadedData, filePath);\n\n});",
           "id": "indx1_1905",
           "x": 65207,
-          "y": 17801,
+          "y": 21465,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37188,7 +37188,7 @@ var schemeData =
           "label": "function saveNewsChannelsDownloadedData(newsData) {\n\n   //console.log(newsChannelsData);\n\n   //return;\n\n   var rootSaveDir = \"newsDownloadedData\";\n\n   if (!fs.existsSync(rootSaveDir)){\n       fs.mkdirSync(rootSaveDir);\n   }\n\n   var newsChannelsDataString = JSON.stringify(newsData.newsChannelsData, undefined, 2);\n\n   var dirName = \"newsDownloadedData_\" + newsDateFormat(newsData.jobStartTime.toDate());\n   var fileName = \"newsDownloadedData_\" + newsDateFormat(newsData.jobStartTime.toDate()) + \".json\"\n\n   if (!fs.existsSync(rootSaveDir + \"/\" + dirName)){\n       fs.mkdirSync(rootSaveDir + \"/\" + dirName);\n   }  \n\n   //prepare and save data for each news file.\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName) {\n      var fileNewsChannelsData = {\n         downloadStartDate: newsData.newsChannelsData.downloadStartDate,\n         newsChannelsDataList: []\n      };\n\n      var newsFileData = newsData.newsFilesData[dataFileName];\n\n      newsFileData.channelsNodes.forEach(function(channelNode) {\n         newsData.newsChannelsData.newsChannelsDataList.forEach(function(toCheckNewsChannelData) {\n            if (toCheckNewsChannelData.channelNode.label == channelNode.label) {\n               fileNewsChannelsData.newsChannelsDataList.push(toCheckNewsChannelData);\n            }\n         });\n      });\n\n      fileNewsChannelsData.channelsList = [];\n      newsFileData.channelsNodes.forEach(function(channelNode) {\n         fileNewsChannelsData.channelsList.push(channelNode.label);\n      });\n\n      fileNewsChannelsData.channelsList.sort(function (a, b) {\n         return a.toLowerCase().localeCompare(b.toLowerCase());\n      });\n\n      fileNewsChannelsData.downloadedDataStats = {};\n      fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats = [];\n\n      fileNewsChannelsData.newsChannelsDataList.forEach(function(data, index) {\n         fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats.push(data.channelDownloadDate + \", \" + index + \". \" + data.channelNode.label + \": \" + data.newNewsList.length);\n      });\n\n      fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats.jobSeconds = newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobSeconds;\n      fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats.jobTime = newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobTime;\n   \n      var fileNewsChannelsDataString = JSON.stringify(fileNewsChannelsData, undefined, 2);\n\n      var fileName1 = \"newsDownloadedData_\" + dataFileName + \"_\" + newsDateFormat(newsData.jobStartTime.toDate()) + \".json\"\n      fs.writeFileSync(rootSaveDir + \"/\" + dirName + \"/\" + fileName1, fileNewsChannelsDataString);    \n   });\n\n   fs.writeFileSync(rootSaveDir + \"/\" + dirName + \"/\" + fileName, newsChannelsDataString);\n\n   console.log(\"DONE. Save to file\");\n}",
           "id": "indx1_1907",
           "x": 66163,
-          "y": 6128,
+          "y": 6086,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37225,7 +37225,7 @@ var schemeData =
           "label": "function getNewsItemDataDateLine(elem) {\n\n   var dateLine = \"\";\n   var doc1 = new dom().parseFromString(elem.toString());\n   var pubDate = xpath.evaluate(\"//*[local-name()='pubDate']\", doc1, null, xpath.XPathResult.ANY_TYPE, null).iterateNext();\n\n   var doc2 = new dom().parseFromString(elem.toString());\n   var dcDate = xpath.select('//*[name()=\"dc:date\"]', doc2)[0];\n\n   var doc3 = new dom().parseFromString(elem.toString());\n   var published = xpath.select(\"//*[local-name()='published']\", doc3)[0];\n\n   var doc4 = new dom().parseFromString(elem.toString());\n   var updated = xpath.select(\"//*[local-name()='updated']\", doc4)[0];\n\n   if (typeof pubDate !== \"undefined\" && \n       pubDate !== null && \n       pubDate.textContent.trim() != \"\") {\n      pubDate = pubDate.textContent.trim();\n      dateLine = pubDate;\n   } else if (typeof dcDate !== \"undefined\" && \n              dcDate !== null && \n              dcDate.textContent.trim() != \"\") {\n      dcDate = dcDate.textContent.trim();\n      dateLine = dcDate;\n   } else if (typeof published !== \"undefined\" && \n              published !== null && \n              published.textContent.trim() != \"\") {\n      published = published.textContent.trim();\n      dateLine = published;\n   } else if (typeof updated !== \"undefined\" && \n              updated !== null && \n              updated.textContent.trim() != \"\") {\n      updated = updated.textContent.trim();\n      dateLine = updated;\n   }\n   return dateLine;\n}",
           "id": "indx1_1908",
           "x": 65936,
-          "y": 7566,
+          "y": 7524,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37262,7 +37262,7 @@ var schemeData =
           "label": "function getNewsItemDataLink(elem) {\n\n   var linkLine = \"\";\n\n   var doc1 = new dom().parseFromString(elem.toString());\n   var guid = xpath.select(\"//*[local-name()='guid']\", doc1)[0];\n\n   var doc2 = new dom().parseFromString(elem.toString());\n   var link = xpath.select(\"//*[local-name()='link']\", doc2)[0];\n\n   var linkHref = xpath.select(\"//*[local-name()='link']/@href\", doc2)[0];\n\n   if (typeof guid !== \"undefined\" && \n       guid !== null && \n       guid.textContent.trim() != \"\" && \n       guid.textContent.trim().match(/^http/) != null) {\n      guid = guid.textContent.trim();\n      linkLine = guid;\n   } else if (typeof link !== \"undefined\" && \n              link !== null && \n              link.textContent.trim() != \"\") {\n      linkLine = link.textContent.trim();\n   } else if (typeof linkHref !== \"undefined\" && \n              linkHref !== null && \n              linkHref.textContent.trim() != \"\") {\n      linkLine = linkHref.textContent.trim();\n   }\n\n   //For dzone.com\n   if (typeof link !== \"undefined\" && \n              link !== null &&\n              link.textContent.trim().match(/dzone.com\\/articles/) != null) {\n      linkLine = link.textContent.trim();\n   }\n   \n   if (linkLine == \"\") {\n      linkLine = elem.toString().split(\"\\n\").join(\"\").replace(\"<!--\",\"\").replace(\"-->\",\"\");\n      linkLine = linkLine.replace(/.*?<link>(.*?http.+?)<.*/g,\"$1\");\n      linkLine = linkLine.replace(\"<!--\",\"\").replace(\"-->\",\"\");\n      linkLine = linkLine.replace(/\\[CDATA\\[ /g,\"\");\n      linkLine = linkLine.replace(/ \\]\\]/g,\"\").trim();\n  \n   }\n   return linkLine;\n}",
           "id": "indx1_1909",
           "x": 65799,
-          "y": 8296,
+          "y": 8254,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37299,7 +37299,7 @@ var schemeData =
           "label": "function getNewsItemDataTitle(elem) {\n\n   var doc = new dom().parseFromString(elem.toString());\n   var title = xpath.select(\"//*[local-name()='title']\", doc);\n   title = title[0].textContent.trim();\n   \n   title = title.replace(/<\\!\\[CDATA\\[/,\"\");\n   title = title.replace(/\\]\\]>/,\"\");\n   \n   var titleNodeLines = [];\n   var parts = title.match(/.{1,45}/g);\n   if (parts != null) {\n      parts.forEach(function(part) {\n         part = part.trim();\n         if (part != \"\") {\n            titleNodeLines.push(part);\n         }\n      });\n   }\n   var title = titleNodeLines.join(\"\\n\");\n   return title\n}",
           "id": "indx1_1910",
           "x": 65736,
-          "y": 8925,
+          "y": 8883,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37336,7 +37336,7 @@ var schemeData =
           "label": "function getNewsItemDataSummaryTextNodeLabel(elem) {\n\n   var summaryText = \"\";\n   \n   var doc1 = new dom().parseFromString(elem.toString());\n   var description = xpath.select(\"//*[local-name()='description']\", doc1)[0];\n\n   var doc2 = new dom().parseFromString(elem.toString());\n   var summary = xpath.select(\"//*[local-name()='summary']\", doc2)[0];\n\n   var doc3 = new dom().parseFromString(elem.toString());\n   var content = xpath.select(\"//*[local-name()='content']\", doc3)[0];\n\n   var doc4 = new dom().parseFromString(elem.toString());\n   var fullText = xpath.select(\"//*[local-name()='full-text']\", doc4)[0];\n\n   var doc5 = new dom().parseFromString(elem.toString());\n   var contentEncoded = xpath.select('//*[name()=\"content:encoded\"]', doc5)[0];\n\n   if (typeof fullText !== \"undefined\" && \n       fullText !== null && \n       fullText.toString().trim() != \"\" && \n       fullText.toString().trim().length > 30) {\n      fullText = fullText.toString().trim();\n      summaryText = fullText;\n   } else if (typeof description !== \"undefined\" && \n              description !== null && \n              description.toString().trim() != \"\") {\n      description = description.toString().trim();\n      summaryText = description;\n   } else if (typeof summary !== \"undefined\" && \n              summary !== null && \n              summary.toString().trim() != \"\") {\n      summaryText = summary.toString().trim();\n   } else if (typeof content !== \"undefined\" && \n              content !== null && \n              content.toString().trim() != \"\") {\n      summaryText = content.toString().trim();\n   } else if (typeof contentEncoded !== \"undefined\" && \n              contentEncoded !== null && \n              contentEncoded.toString().trim() != \"\") {\n      summaryText = contentEncoded.toString().trim();\n   }\n   \n   //summaryText = summaryText.replace(/-->[\\s\\S]*.*/g,\"-->\");\n   summaryText = summaryText.replace(/We Recommend:<\\/font>[\\s\\S]*.*/g,\"\");\n   summaryText = summaryText.replace(/<item>[\\s\\S]*.*/g,\"\");\n\n   var newNodeLines = [];\n   var lines = summaryText.split(\"\\n\");\n   lines.forEach(function(line) {\n      var parts = line.match(/.{1,100}/g);\n      if (parts != null) {\n         parts.forEach(function(part) {\n            part = part.trim();\n            if (part != \"\") {\n               newNodeLines.push(part);\n            }\n         });\n      }\n   });\n\n   var summaryTextNodeLabel = newNodeLines.join(\"\\n\");\n   return summaryTextNodeLabel;\n}",
           "id": "indx1_1911",
           "x": 65802,
-          "y": 9858,
+          "y": 9816,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37370,10 +37370,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function getNewsItemData(item, channelNode) {\n\n   var linkLine = getNewsItemDataLink(item);\n   var title = getNewsItemDataTitle(item);\n   var summaryTextNodeLabel = getNewsItemDataSummaryTextNodeLabel(item);\n   var dateLine = getNewsItemDataDateLine(item);\n   if (typeof linkLine !== \"undefined\") linkLine = linkLine.replace(\"gen.lib.rus.ec\",\"libgen.gs\");\n   if (channelNode.label == \"Libgen | Feed Node\") {\n      result = summaryTextNodeLabel.match(/Date Added:<\\/font><\\/td><td>(.*?)<\\/td>/);\n      if (result != null) dateLine = result[1];\n   }\n   \n   object = {}\n   object.pubDate = dateLine;\n   object.title = title;\n   object.link = linkLine;\n   object.summaryTextNodeLabel = summaryTextNodeLabel;\n   return object;\n}",
+          "label": "function getNewsItemData(item, channelNode, newsData) {\n\n   var linkLine = getNewsItemDataLink(item);\n   var title = getNewsItemDataTitle(item);\n   var summaryTextNodeLabel = getNewsItemDataSummaryTextNodeLabel(item);\n   var dateLine = getNewsItemDataDateLine(item);\n   if (typeof linkLine !== \"undefined\") linkLine = linkLine.replace(\"gen.lib.rus.ec\",\"libgen.gs\");\n   if (channelNode.label == \"Libgen | Feed Node\") {\n      result = summaryTextNodeLabel.match(/Date Added:<\\/font><\\/td><td>(.*?)<\\/td>/);\n      if (result != null) dateLine = result[1];\n   }\n   \n   object = {}\n   object.pubDate = dateLine;\n   object.title = title;\n   object.link = linkLine;\n   object.summaryTextNodeLabel = summaryTextNodeLabel;\n\n   console.log(\"2getNewsItemYoutubePreviewImage(elem)!!!!!!!!!!!!!!!\");\n   if (newsData.youtubeDownload == true) {\n      getNewsItemYoutubePreviewImage(elem);\n   }\n\n   return object;\n}",
           "id": "indx1_1912",
           "x": 65829,
-          "y": 10576,
+          "y": 14348,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37407,10 +37407,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index) {\n\n   var dataFileName = newsData.allChannelsMap[channelNode.label].channelFileName;\n\n   //var channelDownloadDate = newsDateFormat(new Date());\n   var channelDownloadDate = newsDateFormat(channelStartTime.toDate());\n   \n   waitForTime(channelStartTime, false);\n\n   console.log(\"channelDownloadDate: \" + channelDownloadDate + \", downloadStartDate: \" + newsChannelsData.downloadStartDate);\n\n   return fetch(url)\n      .then(function(response){\n         return response.json();\n      })\n      .then(function(response) {\n   \n         var data = response.trim();\n\n         if (data == \"Error\") {\n            console.log(\"Youtube Download Error!!!\");\n            newsData.downloadErrorsChannelsList.push([dataFileName, channelNode.label]);\n         }\n\n         var itemsObjects = [];\n         var itemsObjectsFilteredByLinks = [];\n     \n         if (newsData.youtubeDownload) {\n\n            var doc = new dom().parseFromString(data, 'text/html');\n            var rslt = xpath.evaluate(\"//*[local-name()='script']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n            var pageDataCode = \"\";\n            while(node = rslt.iterateNext()) {\n               //Debug: fs.writeFileSync(\"newsDownloadedData/pageDataCode\" + String(i) + \".txt\", node.toString());\n               //if (node.toString().match(/window\\[\"ytInitialData\"\\]/g,\"\") !== null) {\n               if (node.toString().match(/var ytInitialData/g,\"\") !== null) {\n                  pageDataCode = node.toString();\n               }\n            }\n\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?\\}\\},\"simpleText.*?publishedTimeText.*?webPageType/g);\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?webCommandMetadata\":\\{\"url\":\".watch.v=.*?\",/g);\n            //For debug - save page source to file and search by regex\n            //fs.writeFileSync(\"newsDownloadedData/pageDataCode.txt\", pageDataCode);\n            var vidsMatches = pageDataCode.match(/title\":\\{\"runs\":\\[\\{\"text\":\".*?\"\\}\\],\"access.*?webCommandMetadata\":\\{\"url\":\".*?\",/g);\n            if (vidsMatches !== null) {\n               vidsMatches.forEach(function(vidMatch) {\n                  var object = {};\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\},\".*/,\"$1\");\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\}.*/,\"$1\");\n                  object.title = vidMatch.replace(/.*title\":\\{\"runs\":\\[\\{\"text\":\"(.*?)\"\\}.*?webCommandMetadata.*/,\"$1\");\n                  object.pubDateCurrentLine = vidMatch.replace(/.*publishedTimeText\":\\{\"simpleText\":\"(.*?)\"\\}.*/,\"$1\");\n                  object.link = \"https://www.youtube.com\" + vidMatch.replace(/.*\\{\"url\":\"(.*?)\",.*/,\"$1\");\n                  itemsObjects.push(object);\n               });\n            }\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0 && item.link.match(/watch\\?v=/) != null) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n\n         } else {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='item']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n\n            var items = [];\n            while(node = rslt.iterateNext()) {\n               items.push(node);\n            }\n\n            if (items.length == 0) {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='entry']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n               while(node = rslt.iterateNext()) {\n                  items.push(node);\n               }\n            }\n\n            //items = items.slice(0,50);\n   \n            console.log(\"items.length: \" + items.length);\n            items.forEach(function(item) {\n               var itemData = getNewsItemData(item, channelNode);\n               itemsObjects.push(itemData);\n            });\n\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n         \n         }\n\n         var channelData = {\n            channelNode: newsData.newsFilesData[dataFileName].nodes[channelNode.id],\n            newNewsList: itemsObjectsFilteredByLinks,\n            channelDownloadDate: channelDownloadDate\n         };\n\n         if (itemsObjectsFilteredByLinks.length > 0) {\n            newsChannelsData.newsChannelsDataList.push(channelData);\n         }\n\n         console.log(\"itemsObjectsFilteredByLinks.length: \" + itemsObjectsFilteredByLinks.length);\n\n         downloadedChannelsList.push(channelNode.label);\n\n         console.log(\"downloadedChannelsList.length: \" + downloadedChannelsList.length);\n\n         console.log(\"newsData.downloadErrorsChannelsList: \" + newsData.downloadErrorsChannelsList);\n\n         var showLastChannelsListSize = 5;\n         if (newsData.youtubeDownload) showLastChannelsListSize = 80;\n\n         if ( ( Object.keys(newsData.allChannelsMap).length - downloadedChannelsList.length ) < showLastChannelsListSize ) {\n            var diffArray = arraysDiffLeftFromRight(Object.keys(newsData.allChannelsMap), downloadedChannelsList);\n            diffArray.forEach(function(item, index) {\n               var fileName = newsData.allChannelsMap[item].channelFileName;\n               console.log(index + \". \" + fileName + \". \" + item);\n            });\n         } \n\n         //if (downloadedChannelsList.length == (Object.keys(newsData.allChannelsMap).length)) {\n         if ((index + 1) == (Object.keys(newsData.allChannelsMap).length)) {\n            closingNewsDownloadProcess(newsData);\n\n            var answerLine = \"\";\n            for (var key in newsData.allChannelsMap) {\n               answerLine += newsData.allChannelsMap[key].channelNode.label + \"<br>\";\n               answerLine += newsData.allChannelsMap[key].channelNode.link + \"<br>\";\n            }\n\n            newsData.getNewsResponse.send(answerLine);\n            getAllNewsProcessUp = false;\n\n         }\n\n         return response;\n      })\n      .catch(function(error){console.log(error);});\n}",
+          "label": "function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index) {\n\n   var dataFileName = newsData.allChannelsMap[channelNode.label].channelFileName;\n\n   //var channelDownloadDate = newsDateFormat(new Date());\n   var channelDownloadDate = newsDateFormat(channelStartTime.toDate());\n   \n   waitForTime(channelStartTime, false);\n\n   console.log(\"channelDownloadDate: \" + channelDownloadDate + \", downloadStartDate: \" + newsChannelsData.downloadStartDate);\n\n   return fetch(url)\n      .then(function(response){\n\n         return response.json();\n      })\n      .then(function(response) {\n\n         var data = response.trim();\n\n         if (data == \"Error\") {\n            console.log(\"Youtube Download Error!!!\");\n            newsData.downloadErrorsChannelsList.push([dataFileName, channelNode.label]);\n         }\n\n         var itemsObjects = [];\n         var itemsObjectsFilteredByLinks = [];\n\n         if (newsData.youtubeDownload) {\n\n            var doc = new dom().parseFromString(data, 'text/html');\n            var rslt = xpath.evaluate(\"//*[local-name()='script']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n            var pageDataCode = \"\";\n            while(node = rslt.iterateNext()) {\n               //Debug: fs.writeFileSync(\"newsDownloadedData/pageDataCode\" + String(i) + \".txt\", node.toString());\n               //if (node.toString().match(/window\\[\"ytInitialData\"\\]/g,\"\") !== null) {\n               if (node.toString().match(/var ytInitialData/g,\"\") !== null) {\n                  pageDataCode = node.toString();\n               }\n            }\n\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?\\}\\},\"simpleText.*?publishedTimeText.*?webPageType/g);\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?webCommandMetadata\":\\{\"url\":\".watch.v=.*?\",/g);\n            //For debug - save page source to file and search by regex\n            //fs.writeFileSync(\"newsDownloadedData/pageDataCode.txt\", pageDataCode);\n            var vidsMatches = pageDataCode.match(/title\":\\{\"runs\":\\[\\{\"text\":\".*?\"\\}\\],\"access.*?webCommandMetadata\":\\{\"url\":\".*?\",/g);\n            if (vidsMatches !== null) {\n               //var i = 0;\n               vidsMatches.forEach(function(vidMatch) {\n                  //fs.writeFileSync(\"newsDownloadedData/pageDataCode\" + String(i) + \".txt\", vidMatch);\n                  //i = i + 1;\n                  var object = {};\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\},\".*/,\"$1\");\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\}.*/,\"$1\");\n                  object.title = vidMatch.replace(/.*title\":\\{\"runs\":\\[\\{\"text\":\"(.*?)\"\\}.*?webCommandMetadata.*/,\"$1\");\n                  object.pubDateCurrentLine = vidMatch.replace(/.*publishedTimeText\":\\{\"simpleText\":\"(.*?)\"\\}.*/,\"$1\");\n                  object.link = \"https://www.youtube.com\" + vidMatch.replace(/.*\\{\"url\":\"(.*?)\",.*/,\"$1\");\n                  itemsObjects.push(object);\n               });\n            }\n\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0 && item.link.match(/watch\\?v=/) != null) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n\n         } else {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='item']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n\n            var items = [];\n            while(node = rslt.iterateNext()) {\n               items.push(node);\n            }\n\n            if (items.length == 0) {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='entry']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n               while(node = rslt.iterateNext()) {\n                  items.push(node);\n               }\n            }\n\n            //items = items.slice(0,50);\n   \n            console.log(\"items.length: \" + items.length);\n            items.forEach(function(item) {\n               var itemData = getNewsItemData(item, channelNode, newsData);\n               itemsObjects.push(itemData);\n            });\n\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n         \n         }\n\n         var channelData = {\n            channelNode: newsData.newsFilesData[dataFileName].nodes[channelNode.id],\n            newNewsList: itemsObjectsFilteredByLinks,\n            channelDownloadDate: channelDownloadDate\n         };\n\n         if (itemsObjectsFilteredByLinks.length > 0) {\n            newsChannelsData.newsChannelsDataList.push(channelData);\n         }\n\n         console.log(\"itemsObjectsFilteredByLinks.length: \" + itemsObjectsFilteredByLinks.length);\n\n         downloadedChannelsList.push(channelNode.label);\n\n         console.log(\"downloadedChannelsList.length: \" + downloadedChannelsList.length);\n\n         console.log(\"newsData.downloadErrorsChannelsList: \" + newsData.downloadErrorsChannelsList);\n\n         var showLastChannelsListSize = 5;\n         if (newsData.youtubeDownload) showLastChannelsListSize = 80;\n\n         if ( ( Object.keys(newsData.allChannelsMap).length - downloadedChannelsList.length ) < showLastChannelsListSize ) {\n            var diffArray = arraysDiffLeftFromRight(Object.keys(newsData.allChannelsMap), downloadedChannelsList);\n            diffArray.forEach(function(item, index) {\n               var fileName = newsData.allChannelsMap[item].channelFileName;\n               console.log(index + \". \" + fileName + \". \" + item);\n            });\n         } \n\n         //if (downloadedChannelsList.length == (Object.keys(newsData.allChannelsMap).length)) {\n         if ((index + 1) == (Object.keys(newsData.allChannelsMap).length)) {\n            closingNewsDownloadProcess(newsData);\n\n            var answerLine = \"\";\n            for (var key in newsData.allChannelsMap) {\n               answerLine += newsData.allChannelsMap[key].channelNode.label + \"<br>\";\n               answerLine += newsData.allChannelsMap[key].channelNode.link + \"<br>\";\n            }\n\n            newsData.getNewsResponse.send(answerLine);\n            getAllNewsProcessUp = false;\n\n         }\n\n         return response;\n      })\n      .catch(function(error){console.log(error);});\n}",
           "id": "indx1_1913",
           "x": 65994,
-          "y": 13102,
+          "y": 16766,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37447,7 +37447,7 @@ var schemeData =
           "label": "function getChannelNewsData(ytbChannelNode, index, sessionDateNodeId, newsChannelsData, newsData, channelStartTime) {\n\n   console.log(ytbChannelNode.label + \". \" + String(index + 1) + \". \" + String(Object.keys(newsData.allChannelsMap).length));\n\n   var urlString = ytbChannelNode.link;\n\n   var params = {\n      urlString: urlString\n   };\n\n   url = \"http://localhost:1337/getWebPage\" + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   var dataFileName = newsData.allChannelsMap[ytbChannelNode.label].channelFileName;\n   var allFileEdges = newsData.newsFilesData[dataFileName].edges;\n   var newsListNodes = [];\n   Object.keys(allFileEdges).forEach(function(edgeKey) {\n      var edge = allFileEdges[edgeKey];\n      if (edge.from == ytbChannelNode.id) {\n         endNode = newsData.newsFilesData[dataFileName].nodes[edge.to];\n         if (typeof endNode !== \"undefined\" && endNode.label == \"newsList\") {\n            newsListNodes.push(endNode);\n         }\n      }\n   });\n\n   if (newsListNodes.length == 0) {\n      if ((index+1) == Object.keys(newsData.allChannelsMap).length) {\n         console.log(\"restoreAllAfterNewsDownload()\");\n         //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n         //restoreAllAfterNewsDownload();\n      }\n      return;\n   }\n\n   var nListNode = newsListNodes[0];\n   var nLNode = newsListNodes[0];\n\n   var treeCurrentLinks = getTreeCurrentLinks(nListNode.id, newsData.newsFilesData[dataFileName]);\n\n   return fetchData(url, ytbChannelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index);\n}",
           "id": "indx1_1914",
           "x": 65915,
-          "y": 14801,
+          "y": 18465,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37481,10 +37481,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function newsDownloadProcess(newsData) {\n\nvar sessionDateNodeId = null;\nvar promise1 = null;\n\n//newsData.jobStartTime = new Date();\nnewsData.jobStartTime = newsData.queryStartDate;\n\nnewsData.newsChannelsData = {\n   downloadStartDate: newsDateFormat(newsData.jobStartTime.toDate()),\n   newsChannelsDataList: []\n};\n\nnewsData.newsChannelsData.channelsList = Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n   return a.toLowerCase().localeCompare(b.toLowerCase());\n});\n\nfunction waitForTime(dateLine) {\n   var lastDate = \"\"; \n   while(1 < 2) {\n      var date = new Date().toLocaleString(\"ru-RU\");\n      if (lastDate != date) {\n         console.log(date + \". dateLine to wait: \" + dateLine);\n      }\n      if (dateLine == date) {\n         return;\n      }\n      lastDate = date;\n   };\n}\n",
+          "label": "function newsDownloadProcess(newsData) {\n\nvar sessionDateNodeId = null;\nvar promise1 = null;\n\n//newsData.jobStartTime = new Date();\nnewsData.jobStartTime = newsData.queryStartDate;\n\nnewsData.newsChannelsData = {\n   downloadStartDate: newsDateFormat(newsData.jobStartTime.toDate()),\n   newsChannelsDataList: []\n};\n\nnewsData.newsChannelsData.channelsList = Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n   return a.toLowerCase().localeCompare(b.toLowerCase());\n});\n\n//To delete\n//function waitForTime(dateLine) {\n//   var lastDate = \"\"; \n//   while(1 < 2) {\n//      var date = new Date().toLocaleString(\"ru-RU\");\n//      if (lastDate != date) {\n//         console.log(date + \". dateLine to wait: \" + dateLine);\n//      }\n//      if (dateLine == date) {\n//         return;\n//      }\n//      lastDate = date;\n//   };\n//}\n",
           "id": "indx1_1915",
           "x": 65860,
-          "y": 15594,
+          "y": 19258,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37558,7 +37558,7 @@ var schemeData =
           "label": "function getTreeCurrentLinks(rootNodeId, newsFileData) {\n   var codeEdges = [];\n   Object.keys(newsFileData.edges).forEach(function(edgeKey) {\n      var edge = newsFileData.edges[edgeKey];\n      if (edge.from == rootNodeId) {\n         codeEdges.push(edge);\n      }\n   });\n\n   var branchCodeNodes = [];\n   codeEdges.forEach(function(codeEdge) {\n      var endNode = newsFileData.nodes[codeEdge.to];\n      if (typeof endNode !== \"undefined\") {\n            branchCodeNodes.push(endNode);\n      }\n   });\n   var links = [];\n   links = links.concat(getLinksFromDataCash(rootNodeId, newsFileData));\n   branchCodeNodes.forEach(function(branchNode) {\n      if (typeof branchNode.link !== \"undefined\" && branchNode.link != null) {\n         links.push(branchNode.link);\n      }\n      links = links.concat(getTreeCurrentLinks(branchNode.id, newsFileData));\n      links = links.concat(getLinksFromDataCash(branchNode.id, newsFileData));\n   });\n   return links;\n}",
           "id": "indx1_1917",
           "x": 65777,
-          "y": 3984,
+          "y": 3942,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37595,7 +37595,7 @@ var schemeData =
           "label": "function moveNewNewsTreeToTop(nodes, rootNode) {\n   var bottomNode = nodes[0];\n   nodes.forEach(function(node) {\n      if (node.y > bottomNode.y) {\n         bottomNode = node;\n      }\n   });\n   var rootNodeAndTreeBottomNodeCurrentDiff = bottomNode.y - rootNode.y;\n   var rootNodeAndTreeBottomNodeSetupDiff = 50;\n   var yShift = rootNodeAndTreeBottomNodeCurrentDiff + rootNodeAndTreeBottomNodeSetupDiff;\n   nodes.forEach(function(node) {\n      //network.nodesHandler.moveNode(node.id, node.x, node.y - yShift);\n      node.y = node.y - yShift;\n   });\n}",
           "id": "indx1_1918",
           "x": 65866,
-          "y": 4644,
+          "y": 4602,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37632,7 +37632,7 @@ var schemeData =
           "label": "function getTreeNodesAndEdges(rootNodeId, allNodes, allEdges) {\n\n   if (typeof allNodes[rootNodeId] === \"undefined\") {\n      return null;\n   }\n\n   var rootBranchesEdges = [];\n   Object.keys(allEdges).forEach(function(edgeNodeId) {\n      var edge = allEdges[edgeNodeId];\n      if (edge.from == rootNodeId) {\n         rootBranchesEdges.push(edge);\n      }\n   });\n\n   var branchNodes = [];\n   rootBranchesEdges.forEach(function(rootBranchesEdge) {\n      if (typeof allNodes[rootBranchesEdge.to] === \"undefined\") return;\n      branchNodes.push(allNodes[rootBranchesEdge.to]);\n   });\n\n   var branchesNodesAndEdges = {\n      nodes:  [],\n      edges: rootBranchesEdges\n   };\n\n   branchNodes.forEach(function(branchNode) {\n      branchesNodesAndEdges.nodes.push(branchNode);\n      var branchesData = getTreeNodesAndEdges(branchNode.id, allNodes, allEdges);\n      branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.concat(branchesData.nodes);\n      branchesNodesAndEdges.edges = branchesNodesAndEdges.edges.concat(branchesData.edges);\n   });\n   return branchesNodesAndEdges;\n}",
           "id": "indx1_1919",
           "x": 65873,
-          "y": 5369,
+          "y": 5327,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37706,7 +37706,7 @@ var schemeData =
           "label": "getTreeCurrentLinks(rootNodeId)",
           "id": "indx1_1921",
           "x": 67203,
-          "y": 3738,
+          "y": 3696,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37743,7 +37743,7 @@ var schemeData =
           "label": "moveNewNewsTreeToTop(nodes, rootNode)",
           "id": "indx1_1922",
           "x": 67329,
-          "y": 4386,
+          "y": 4344,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37780,7 +37780,7 @@ var schemeData =
           "label": "getTreeNodesAndEdges(rootNodeId, allNodes, allEdges)",
           "id": "indx1_1923",
           "x": 67470,
-          "y": 5082,
+          "y": 5040,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37817,7 +37817,7 @@ var schemeData =
           "label": "saveNewsChannelsDownloadedData(newsData)",
           "id": "indx1_1924",
           "x": 67375,
-          "y": 5774,
+          "y": 5732,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37854,7 +37854,7 @@ var schemeData =
           "label": "getNewsItemDataDateLine(elem)",
           "id": "indx1_1925",
           "x": 67228,
-          "y": 7322,
+          "y": 7280,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37891,7 +37891,7 @@ var schemeData =
           "label": "getNewsItemDataLink(elem)",
           "id": "indx1_1926",
           "x": 67173,
-          "y": 8016,
+          "y": 7974,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37928,7 +37928,7 @@ var schemeData =
           "label": "getNewsItemDataTitle(elem)",
           "id": "indx1_1927",
           "x": 67174,
-          "y": 8699,
+          "y": 8657,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37965,7 +37965,7 @@ var schemeData =
           "label": "getNewsItemDataSummaryTextNodeLabel(elem)",
           "id": "indx1_1928",
           "x": 67402,
-          "y": 9520,
+          "y": 9478,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37999,10 +37999,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "getNewsItemData(item, channelNode)",
+          "label": "getNewsItemData(item, channelNode, newsData)",
           "id": "indx1_1929",
-          "x": 67282,
-          "y": 10440,
+          "x": 67407,
+          "y": 14104,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38039,7 +38039,7 @@ var schemeData =
           "label": "fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index)",
           "id": "indx1_1930",
           "x": 68022,
-          "y": 12816,
+          "y": 16480,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38076,7 +38076,7 @@ var schemeData =
           "label": "getChannelNewsData(ytbChannelNode, index, ytbChannelsNodes, sessionDateNodeId, newsChannelsData, channelStartTime)",
           "id": "indx1_1931",
           "x": 68279,
-          "y": 14571,
+          "y": 18235,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38113,7 +38113,7 @@ var schemeData =
           "label": "newsDownloadProcess(newsData)",
           "id": "indx1_1932",
           "x": 67245,
-          "y": 15537,
+          "y": 19201,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38150,7 +38150,7 @@ var schemeData =
           "label": "app.get(\"/getAllNews\". query.startDateLine",
           "id": "indx1_1933",
           "x": 67157,
-          "y": 17531,
+          "y": 21195,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38187,7 +38187,7 @@ var schemeData =
           "label": "getPage(newsUrl, getRSSAnswer)",
           "id": "indx1_1934",
           "x": 67113,
-          "y": 18827,
+          "y": 22692,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38372,7 +38372,7 @@ var schemeData =
           "label": "Рекурсивно проходим по всем нодам в дереве для данной корневой ноды \n(в том числе для нод из dataCash) и возвращаем список их ссылок.",
           "id": "indx1_1939",
           "x": 67080,
-          "y": 3794,
+          "y": 3752,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38446,7 +38446,7 @@ var schemeData =
           "label": "??? Поднимаем свежедобавленные ноды новостей надо теми, \nчто уже были в данном канале, \nчтобы они были выше в развернутом списке?",
           "id": "indx1_1941",
           "x": 67042,
-          "y": 4446,
+          "y": 4404,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38631,7 +38631,7 @@ var schemeData =
           "label": "Рекурсивно проходим по веткам для данной корневой ноды \nи возвращаем список нод и список связей ее дерева",
           "id": "indx1_1946",
           "x": 67033,
-          "y": 5140,
+          "y": 5098,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38668,7 +38668,7 @@ var schemeData =
           "label": "Создаем одну большую ноду для JSON всех полученных новостей",
           "id": "indx1_1947",
           "x": 67052,
-          "y": 5826,
+          "y": 5784,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38705,7 +38705,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее дату",
           "id": "indx1_1948",
           "x": 67012,
-          "y": 7372,
+          "y": 7330,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38742,7 +38742,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее ссылку",
           "id": "indx1_1949",
           "x": 67020,
-          "y": 8066,
+          "y": 8024,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38779,7 +38779,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее заголовок",
           "id": "indx1_1950",
           "x": 67029,
-          "y": 8747,
+          "y": 8705,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38815,8 +38815,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Парсим данные новости и возвращаем ее основной текст",
           "id": "indx1_1951",
-          "x": 67047,
-          "y": 9572,
+          "x": 67046,
+          "y": 9530,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38853,7 +38853,7 @@ var schemeData =
           "label": "Возвращаем объект, в котором собраны распарсенные данные новости",
           "id": "indx1_1952",
           "x": 67093,
-          "y": 10491,
+          "y": 14155,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38890,7 +38890,7 @@ var schemeData =
           "label": "Скачиваем данные канала новостей, отбираем новые и возвращаем список новостей",
           "id": "indx1_1953",
           "x": 67149,
-          "y": 12867,
+          "y": 16531,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38927,7 +38927,7 @@ var schemeData =
           "label": "Достаем ссылку на канал и запускаем закачку его новостей",
           "id": "indx1_1954",
           "x": 67052,
-          "y": 14625,
+          "y": 18289,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38964,7 +38964,7 @@ var schemeData =
           "label": "Запускаем процессы закачки новостей для каждого канала",
           "id": "indx1_1955",
           "x": 67051,
-          "y": 15583,
+          "y": 19247,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39001,7 +39001,7 @@ var schemeData =
           "label": "Собираем список всех каналов из всех news файлов mm-vis-js и запускаем закачку их новостей",
           "id": "indx1_1956",
           "x": 66999,
-          "y": 17582,
+          "y": 21246,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39038,7 +39038,7 @@ var schemeData =
           "label": "Скачиваем данные новостного канала (?)",
           "id": "indx1_1957",
           "x": 66866,
-          "y": 18877,
+          "y": 22742,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39074,8 +39074,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   Object.keys(newsData.allChannelsMap).sort().forEach(function(channelLabel, index) {\n\n      var channelStartTime = newsData.jobStartTime.clone().add(newsData.channelsDownloadTimeStep*index, 's');\n\n      if (promise1 == null) {\n\n         //#promisePrepare = new Promise(function(resolve, reject) {\n                 //#waitForTime(waitForTimeLine);\n                 //#waitForTimeLine = \"07.08.2020, 0:25:05\";\n                 //#if (waitForTimeLine != \"\") {\n                 //#   newsChannelsData.downloadStartDate = waitForTimeLine;\n                 //#   waitForTime(waitForTimeLine);\n                 //#}\n\n         //#        //#resolve();\n         //#});\n\n         promise1 = getChannelNewsData(newsData.allChannelsMap[channelLabel].channelNode, index, sessionDateNodeId, newsData.newsChannelsData, newsData, channelStartTime);\n\n      } else {\n\n         promise1 = promise1.then(function(value) {\n            console.log(\"Object.keys(newsData.allChannelsMap).length: \" + Object.keys(newsData.allChannelsMap).length);\n            console.log(\"index: \" + index);\n           \n            var channelNewsData = getChannelNewsData(newsData.allChannelsMap[channelLabel].channelNode, index, sessionDateNodeId, newsData.newsChannelsData, newsData, channelStartTime);\n\n            return channelNewsData;\n         });\n      }\n   });\n}",
           "id": "indx1_1958",
-          "x": 66535,
-          "y": 16527,
+          "x": 66543,
+          "y": 20054,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39110,7 +39110,7 @@ var schemeData =
           "label": "app.get(\"/getWebPage\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var urlString = req.query.urlString;\n   console.log(\"/getWebPage -> urlString: \" + urlString);\n\n/*\n   function getRSSAnswer(answerLine) {\n      answerLine = encodeURIComponent(answerLine)\n      answerLine = JSON.stringify(answerLine);\n      response.send(answerLine);\n   }\n\n   var answerLine = getPage(urlString, getRSSAnswer);\n*/\n\n   var urlsToProxy = [\n      \"http://gen.lib.rus.ec/rss/index.php\"\n   ];\n\n   if (urlsToProxy.indexOf(urlString) != -1) {\n      var execSync1 = require('child_process').execSync;\n\n      var options = {encoding: 'utf8'};\n\n      var result = execSync1(\"/usr/bin/ruby /home/mike/progr/repo/mm-vis-js/utils/ruby_proxy.rb \" + urlString, options);\n\n     var data = JSON.stringify(result);\n\n     res.send(data);\n   } else {\n\n    var userAgentString = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\"\n\n    axios.get(urlString, { headers: { 'User-Agent': userAgentString }  })\n    .then(function (response) {\n        var data = JSON.stringify(response.data);\n        //console.log(data);\n        res.send(data);\n    })\n    .catch(function (error) {\n        console.log(\"Error\");\n        //console.log(error);\n        var data = JSON.stringify(\"Error\");\n        res.send(data);\n    });\n   }\n\n});",
           "id": "indx1_1959",
           "x": 65341,
-          "y": 19918,
+          "y": 23724,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39147,7 +39147,7 @@ var schemeData =
           "label": "app.get(\"/getWebPage\". query.urlString",
           "id": "indx1_1960",
           "x": 67166,
-          "y": 19715,
+          "y": 23521,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39184,7 +39184,7 @@ var schemeData =
           "label": "Get web page data",
           "id": "indx1_1961",
           "x": 66789,
-          "y": 19776,
+          "y": 23582,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39221,7 +39221,7 @@ var schemeData =
           "label": "function closingNewsDownloadProcess(newsData) {\n   //promise1 = promise1.then(function(value) {\n   newsData.jobEndTime = new Date();\n\n   function compare( a, b ) {\n      var a = a.channelNode.label.toLowerCase();\n      var b = b.channelNode.label.toLowerCase();\n      if ( a > b ){\n         return -1;\n      }\n      if ( a < b ){\n         return 1;\n      }\n      return 0;\n   }\n   newsData.newsChannelsData.newsChannelsDataList = newsData.newsChannelsData.newsChannelsDataList.sort(compare);\n\n   newsData.newsChannelsData.newsChannelsDataList.forEach(function(data, index) {\n      console.log(data.channelDownloadDate + \", \" + index + \". \" + data.channelNode.label + \": \" + data.newNewsList.length);\n   });\n\n   newsData.newsChannelsData.downloadedDataStats = {};\n   newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats = [];\n\n   newsData.newsChannelsData.newsChannelsDataList.forEach(function(data, index) {\n      newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.push(data.channelDownloadDate + \", \" + index + \". \" + data.channelNode.label + \": \" + data.newNewsList.length);\n   });\n\n   var jobMillis = newsData.jobEndTime.getTime() - newsData.jobStartTime.toDate().getTime();\n\n   var jobFullSecondsMillisRemainder = jobMillis%1000;\n   var jobFullSeconds = (jobMillis - jobFullSecondsMillisRemainder)/1000;\n\n   var jobFullMinutesSecondsRemainder = jobFullSeconds%60;\n   var jobFullMinutes = (jobFullSeconds - jobFullMinutesSecondsRemainder)/60;\n\n   var jobFullSecondsRemainder = jobFullSeconds - 60*jobFullMinutes;\n\n   var jobSeconds = \"Job seconds: \" + String(jobFullSeconds);\n   console.log(jobSeconds);\n   var jobTime = \"Job time: \"+String(jobFullMinutes)+\"m \"+String(jobFullSecondsRemainder)+\"s\";\n   console.log(jobTime);\n   console.log(\"newsData.jobStartTime: \" + newsDateFormat(newsData.jobStartTime.toDate()));\n\n   newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobSeconds = jobSeconds;\n   newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobTime = jobTime;\n\n   saveNewsChannelsDownloadedData(newsData);\n   //});\n   //return promise1;\n}",
           "id": "indx1_1962",
           "x": 66144,
-          "y": 11317,
+          "y": 15143,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39258,7 +39258,7 @@ var schemeData =
           "label": "closingNewsDownloadProcess(newsData)",
           "id": "indx1_1963",
           "x": 67327,
-          "y": 11209,
+          "y": 14873,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39295,7 +39295,7 @@ var schemeData =
           "label": "Save all downloaded news data and show download process stats",
           "id": "indx1_1964",
           "x": 67065,
-          "y": 11263,
+          "y": 14927,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39440,9 +39440,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "waitForTime(checkDate, verboseBool)",
+          "label": "waitForTime(newsData, verboseBool)",
           "id": "indx1_1975",
-          "x": 67260,
+          "x": 67253,
           "y": 1753,
           "shape": "box",
           "link": "",
@@ -39477,7 +39477,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function waitForTime(checkDate, verboseBool) {\n   var lastDateString = \"\"; \n   while(checkDate > moment()) {\n      var currentDateString = newsDateFormat(moment().toDate());\n      if (lastDateString != currentDateString) {\n         if (verboseBool) {\n            console.log(\"CurrentDateString: \" + currentDateString + \". dateLine to wait: \" + newsDateFormat(checkDate.toDate()));\n         }\n         lastDateString = currentDateString;\n      }\n   };\n}",
+          "label": "function waitForTime(newsData, verboseBool) {\n   if (typeof newsData.testRun !== \"undefined\" && newsData.testRun == \"true\") return;\n   var checkDate = newsData.queryStartDate;\n   var lastDateString = \"\"; \n   while(checkDate > moment()) {\n      var currentDateString = newsDateFormat(moment().toDate());\n      if (lastDateString != currentDateString) {\n         if (verboseBool) {\n            console.log(\"CurrentDateString: \" + currentDateString + \". dateLine to wait: \" + newsDateFormat(checkDate.toDate()));\n         }\n         lastDateString = currentDateString;\n      }\n   };\n}",
           "id": "indx1_1976",
           "x": 65930,
           "y": 2007,
@@ -39526,7 +39526,7 @@ var schemeData =
         "indx1_1978": {
           "id": "indx1_1978",
           "x": 67037,
-          "y": 17098,
+          "y": 20762,
           "label": "   var newsData = {\n      channelsDownloadTimeStep: 1,\n      \"newsFilesData\": {\n       \"news1.data.js\": {rootNodeId: \"49dab2fa-bf4b-4bb5-9a42-35495b3953df\"},\n      \"news2.data.js\": {rootNodeId: \"c72a9f5a-45a9-4f90-a97c-0ab0e40c27eb\"},\n      \"news3.data.js\": {rootNodeId: \"49dab2fa-bf4b-4bb5-9a42-35495b3953df956\"},\n      \"news4.data.js\": {rootNodeId: \"dfcedad5-31d1-4e02-b997-a6b47f007998\"},\n      \"news41.data.js\": {rootNodeId: \"dfcedad5-31d1-4e02-b997-a6b47f007998\"},\n      \"news5.data.js\": {rootNodeId: \"817e10c2-d501-4234-9877-4fec1a1c72ea\"},\n      \"news51.data.js\": {rootNodeId: \"20208620-edc2-4ea3-b8b1-cb0e841caa65\"},\n      \"news52.data.js\": {rootNodeId: \"817e10c2-d501-4234-9877-4fec1a1c72ea\"},\n      \"news6.data.js\": {rootNodeId: \"6f710fd9-c490-4a47-8990-02f3789b0906\"},\n      \"news61.data.js\": {rootNodeId: \"6f710fd9-c490-4a47-8990-02f3789b0906\"}},\n      allChannelsMap: {},\n      getNewsResponse: response\n   };",
           "shape": "box",
           "link": "",
@@ -39571,7 +39571,7 @@ var schemeData =
           "label": "Date From News",
           "id": "indx1_1979",
           "x": 68355,
-          "y": 7617,
+          "y": 7575,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39608,7 +39608,7 @@ var schemeData =
           "label": "Title From News",
           "id": "indx1_1981",
           "x": 68303,
-          "y": 8983,
+          "y": 8941,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39645,7 +39645,7 @@ var schemeData =
           "label": "Link From News",
           "id": "indx1_1982",
           "x": 68300,
-          "y": 8311,
+          "y": 8269,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39793,7 +39793,7 @@ var schemeData =
           "label": "Tree Links",
           "id": "indx1_1986",
           "x": 67758,
-          "y": 4047,
+          "y": 4005,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39830,7 +39830,7 @@ var schemeData =
           "label": "Move Tree To Top",
           "id": "indx1_1987",
           "x": 68424,
-          "y": 4693,
+          "y": 4651,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39867,7 +39867,7 @@ var schemeData =
           "label": "Nodes of Tree",
           "id": "indx1_1988",
           "x": 68091,
-          "y": 5388,
+          "y": 5346,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39904,7 +39904,7 @@ var schemeData =
           "label": "Save To Dir",
           "id": "indx1_1989",
           "x": 67866,
-          "y": 6069,
+          "y": 6027,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39938,10 +39938,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "app.get(\"/indexes\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var fileName = request.query.fileName;\n   console.log(\"/indexes -> fileName: \" + fileName);\n   //https://localhost:3001/indexes?fileName=news2.data.js\n\n   var fs = require('fs');\n\nfilesData = {};\nfilesData[\"news1.data.js\"] = \"news1.data.js\";\nfilesData[\"news11.data.js\"] = \"news11.data.js\";\nfilesData[\"news2.data.js\"] = \"news2.data.js\";\nfilesData[\"news3.data.js\"] = \"news3.data.js\";\nfilesData[\"news4.data.js\"] = \"news4.data.js\";\nfilesData[\"news41.data.js\"] = \"news41.data.js\";\nfilesData[\"news5.data.js\"] = \"news5.data.js\";\nfilesData[\"news51.data.js\"] = \"news51.data.js\";\nfilesData[\"news52.data.js\"] = \"news52.data.js\";\nfilesData[\"news53.data.js\"] = \"news53.data.js\";\nfilesData[\"news6.data.js\"] = \"news6.data.js\";\nfilesData[\"news61.data.js\"] = \"news61.data.js\";\nfilesData[\"news7.data.js\"] = \"news7.data.js\";\nfilesData[\"youtube1.data.js\"] = \"youtube1.data.js\";\nfilesData[\"youtube2.data.js\"] = \"youtube2.data.js\";\nfilesData[\"youtube3.data.js\"] = \"youtube3.data.js\";\nfilesData[\"mm-vis-js_code.data.js\"] = \"mm-vis-js_code.data.js\";\nfilesData[\"mm-vis-js_docs.data.js\"] = \"mm-vis-js_docs.data.js\";\nfilesData[\"index.data.js\"] = \"index.data.js\";\nfilesData[\"base.data.js\"] = \"base.data.js\";\nfilesData[\"culture.data.js\"] = \"culture.data.js\";\nfilesData[\"ruby.data.js\"] = \"ruby.data.js\";\nfilesData[\"javascript.data.js\"] = \"javascript.data.js\";\nfilesData[\"python.data.js\"] = \"python.data.js\";\nfilesData[\"music1.data.js\"] = \"music1.data.js\";\nfilesData[\"music2.data.js\"] = \"music2.data.js\";\nfilesData[\"math.data.js\"] = \"math.data.js\";\nfilesData[\"code.data.js\"] = \"code.data.js\";\nfilesData[\"engineering.data.js\"] = \"engineering.data.js\";\nfilesData[\"nature.data.js\"] = \"nature.data.js\";\nfilesData[\"timelines.data.js\"] = \"timelines.data.js\";\nfilesData[\"java.data.js\"] = \"java.data.js\";\nfilesData[\"java-api.data.js\"] = \"java-api.data.js\";\nfilesData[\"sa1.data.js\"] = \"sa1.data.js\";\nfilesData[\"lisp.data.js\"] = \"lisp.data.js\";\n\nfunction rebuildIndexes(fileName) {\n\n   console.log(\"Process file: \" + fileName);\n\n   var filePathPart = \"../app/\";\n\n   var fileString = fs.readFileSync(filePathPart + fileName, 'utf8');\n   var fileString = fileString.trim();\n\n   fileString = fileString.split(\"\\n\");\n   fileString.shift();\n   fileString.pop();\n   fileString = fileString.join(\"\\n\");\n   fileData = JSON.parse(fileString);\n\n   workData = {};\n\n   workData.data = fileData;\n   workData.nodes = fileData.canvas1Data.nodes._data;\n   workData.edges = fileData.canvas1Data.edges._data;\n",
+          "label": "app.get(\"/indexes\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var fileName = request.query.fileName;\n   console.log(\"/indexes -> fileName: \" + fileName);\n   //https://localhost:3001/indexes?fileName=news2.data.js\n\n   var fs = require('fs');\n\nfilesData = {};\nfilesData[\"news1.data.js\"] = \"news1.data.js\";\nfilesData[\"news11.data.js\"] = \"news11.data.js\";\nfilesData[\"news2.data.js\"] = \"news2.data.js\";\nfilesData[\"news3.data.js\"] = \"news3.data.js\";\nfilesData[\"news4.data.js\"] = \"news4.data.js\";\nfilesData[\"news41.data.js\"] = \"news41.data.js\";\nfilesData[\"news5.data.js\"] = \"news5.data.js\";\nfilesData[\"news51.data.js\"] = \"news51.data.js\";\nfilesData[\"news52.data.js\"] = \"news52.data.js\";\nfilesData[\"news53.data.js\"] = \"news53.data.js\";\nfilesData[\"news6.data.js\"] = \"news6.data.js\";\nfilesData[\"news61.data.js\"] = \"news61.data.js\";\nfilesData[\"news7.data.js\"] = \"news7.data.js\";\nfilesData[\"youtube1.data.js\"] = \"youtube1.data.js\";\nfilesData[\"youtube2.data.js\"] = \"youtube2.data.js\";\nfilesData[\"youtube3.data.js\"] = \"youtube3.data.js\";\nfilesData[\"mm-vis-js_code.data.js\"] = \"mm-vis-js_code.data.js\";\nfilesData[\"mm-vis-js_docs.data.js\"] = \"mm-vis-js_docs.data.js\";\nfilesData[\"index.data.js\"] = \"index.data.js\";\nfilesData[\"base.data.js\"] = \"base.data.js\";\nfilesData[\"culture.data.js\"] = \"culture.data.js\";\nfilesData[\"ruby.data.js\"] = \"ruby.data.js\";\nfilesData[\"javascript.data.js\"] = \"javascript.data.js\";\nfilesData[\"python.data.js\"] = \"python.data.js\";\nfilesData[\"music1.data.js\"] = \"music1.data.js\";\nfilesData[\"music2.data.js\"] = \"music2.data.js\";\nfilesData[\"math.data.js\"] = \"math.data.js\";\nfilesData[\"code.data.js\"] = \"code.data.js\";\nfilesData[\"admin.data.js\"] = \"admin.data.js\";\nfilesData[\"engineering.data.js\"] = \"engineering.data.js\";\nfilesData[\"nature.data.js\"] = \"nature.data.js\";\nfilesData[\"timelines.data.js\"] = \"timelines.data.js\";\nfilesData[\"java.data.js\"] = \"java.data.js\";\nfilesData[\"java-api.data.js\"] = \"java-api.data.js\";\nfilesData[\"sa1.data.js\"] = \"sa1.data.js\";\nfilesData[\"lisp.data.js\"] = \"lisp.data.js\";\n\nfunction rebuildIndexes(fileName) {\n\n   console.log(\"Process file: \" + fileName);\n\n   var filePathPart = \"../app/\";\n\n   var fileString = fs.readFileSync(filePathPart + fileName, 'utf8');\n   var fileString = fileString.trim();\n\n   fileString = fileString.split(\"\\n\");\n   fileString.shift();\n   fileString.pop();\n   fileString = fileString.join(\"\\n\");\n   fileData = JSON.parse(fileString);\n\n   workData = {};\n\n   workData.data = fileData;\n   workData.nodes = fileData.canvas1Data.nodes._data;\n   workData.edges = fileData.canvas1Data.edges._data;\n",
           "id": "indx1_1992",
           "x": 65071,
-          "y": 23244,
+          "y": 26908,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39978,7 +39978,7 @@ var schemeData =
           "label": "Server For All News Download",
           "id": "indx1_1993",
           "x": 69417,
-          "y": 17818,
+          "y": 21482,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40015,7 +40015,7 @@ var schemeData =
           "label": "Make All Download Processes",
           "id": "indx1_1994",
           "x": 69555,
-          "y": 15825,
+          "y": 19489,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40052,7 +40052,7 @@ var schemeData =
           "label": "Start Channel Download",
           "id": "indx1_1995",
           "x": 69022,
-          "y": 14868,
+          "y": 18532,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40089,7 +40089,7 @@ var schemeData =
           "label": "Download Channel Data",
           "id": "indx1_1996",
           "x": 69032,
-          "y": 13099,
+          "y": 16763,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40126,7 +40126,7 @@ var schemeData =
           "label": "Close Download Process",
           "id": "indx1_1997",
           "x": 69089,
-          "y": 11505,
+          "y": 15169,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40163,7 +40163,7 @@ var schemeData =
           "label": "Collect News Data To Object",
           "id": "indx1_1998",
           "x": 69399,
-          "y": 10734,
+          "y": 14398,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40200,7 +40200,7 @@ var schemeData =
           "label": "Text From News",
           "id": "indx1_1999",
           "x": 68299,
-          "y": 9811,
+          "y": 9769,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -41080,7 +41080,7 @@ var schemeData =
           "label": "   var allNodes = workData.nodes;\n   Object.keys(allNodes).forEach(function(key,index) {\n      if (index < 10) {\n         //console.log(allNodes[key].id);\n      }\n   });\n   var allEdges = workData.edges;\n   Object.keys(allEdges).forEach(function(key,index) {\n      if (index < 10) {\n         //console.log(allEdges[key].id);\n      }\n   });\n   console.log(\"allNodes.length: \" + Object.keys(allNodes).length);\n   console.log(\"allEdges.length: \" + Object.keys(allEdges).length);\n\n   console.log(\"Object.keys(dataCash).length: \" + Object.keys(workData.data.dataCash).length);\n\n   var dataCashNodesIds = [];\n   var dataCashEdgesIds = [];\n\n   Object.keys(workData.data.dataCash).forEach(function(dataCashKey) {\n      //console.log(dataCashKey);\n      var tree = workData.data.dataCash[dataCashKey];\n      tree.nodes.forEach(function(node) {\n         //console.log(node.id);\n         dataCashNodesIds.push(node.id);\n      });\n      tree.edges.forEach(function(edge) {\n         //console.log(edge.id);\n         dataCashEdgesIds.push(edge.id);\n      });\n   });\n\n   console.log(\"dataCashNodesIds.length: \" + dataCashNodesIds.length);\n   console.log(\"dataCashEdgesIds.length: \" + dataCashEdgesIds.length);\n\n   var totalNodesIds = Object.keys(allNodes).concat(dataCashNodesIds);\n   var totalEdgesIds = Object.keys(allEdges).concat(dataCashEdgesIds);\n\n   console.log(\"totalNodes.length: \" + totalNodesIds.length);\n   console.log(\"totalEdges.length: \" + totalEdgesIds.length);\n\n   var totalShortNodesIds = [];\n   for (var i in totalNodesIds) {\n      var id = totalNodesIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) totalShortNodesIds.push(id);\n   }\n   var totalShortEdgesIds = [];\n   for (var i in totalEdgesIds) {\n      var id = totalEdgesIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) totalShortEdgesIds.push(id);\n   }\n   console.log(\"totalShortNodesIds.length: \" + totalShortNodesIds.length);\n   console.log(\"totalShortEdgesIds.length: \" + totalShortEdgesIds.length);\n   console.log(\"Unprocessed nodesIds.length: \" + (totalNodesIds.length - totalShortNodesIds.length));\n   console.log(\"Unprocessed edgesIds.length: \" + (totalEdgesIds.length - totalShortEdgesIds.length));\n\n   var totalIds = totalNodesIds.concat(totalEdgesIds);\n\n   console.log(\"totalIds.length: \" + totalIds.length);\n\n   var totalShortIds = [];\n   for (var i in totalIds) {\n      var id = totalIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) totalShortIds.push(id);\n   }\n   console.log(\"totalShortIds.length: \" + totalShortIds.length);\n   console.log(\"Unprocessed ids: \" + (totalIds.length - totalShortIds.length));",
           "id": "indx1_2025",
           "x": 65630,
-          "y": 24300,
+          "y": 27964,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42368,7 +42368,7 @@ var schemeData =
           "label": "app.get(\"/indexes\". query.fileName",
           "id": "indx1_2069",
           "x": 67116,
-          "y": 22958,
+          "y": 26622,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42405,7 +42405,7 @@ var schemeData =
           "label": "data.js ids",
           "id": "indx1_2070",
           "x": 66763,
-          "y": 23004,
+          "y": 26668,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42442,7 +42442,7 @@ var schemeData =
           "label": "Rebuild Indexes",
           "id": "indx1_2071",
           "x": 68163,
-          "y": 23237,
+          "y": 26901,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42479,7 +42479,7 @@ var schemeData =
           "label": "Download Web Page",
           "id": "indx1_2072",
           "x": 68602,
-          "y": 20006,
+          "y": 23812,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42516,7 +42516,7 @@ var schemeData =
           "label": "Download RSS Data",
           "id": "indx1_2073",
           "x": 68562,
-          "y": 19108,
+          "y": 22973,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42590,7 +42590,7 @@ var schemeData =
           "label": "   var options = {\n      encoding: 'utf8'\n   };\n\n   function chunk(arr, chunkSize) {\n      var chunksList = [];\n      for (var i=0,len=arr.length; i<len; i+=chunkSize)\n      chunksList.push(arr.slice(i,i+chunkSize));\n      return chunksList;\n   }\n\n   var prefix = \"indx5_\";\n   var newIdShift = getNextNumberForPrefixedId(totalIds, prefix) + 109;\n   var regexesList = [];\n   var counter = 0;\n   for (var i in totalIds) {\n      var id = totalIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) {\n         //console.log(\"Short id: \" + id);\n         continue;\n      }\n\n\n      var newId = parseInt(counter, 10) + Number(newIdShift);\n      counter = counter + 1;\n\n      regexesList.push(\"s/\\\"\" + id + \"\\\"/\\\"\" + prefix + String(newId) + \"\\\"/g\");\n      \n   }\n\n   var chunksList = chunk(regexesList, 100);\n  \n   for (var i in chunksList) {\n      var checkForBreakSignal = fs.readFileSync('stopSedJob.txt', 'utf8').trim();\n      if (checkForBreakSignal == \"stop\") {\n         console.log(\"Job Stopped\");\n         break;\n      }\n      var regex = chunksList[i].join(\"; \");\n      var cmd = \"sed -i '\" + regex + \"' \" + filePathPart + fileName;\n      //console.log(i + \". \" + cmd);\n      console.log(i + \". \" + chunksList[i].length + \". \" + fileName);\n\n      //if (i > 100) break;\n      \n      var execResult = execSync(cmd, options);\n   }\n   console.log(fileName + \". Done\");\n\n}\n\nconsole.log(\"Files Queue: \");\nconsole.log(filesData);\nconsole.log(\"------\");\nfor (var fileName in filesData) {\n   console.log(\"---\");\n   console.log(\"Process run: \" + fileName);\n   rebuildIndexes(filesData[fileName]);\n}\n\n\nvar answerLine = JSON.stringify(\"done\");\nresponse.send(answerLine);\n\n});",
           "id": "indx1_2075",
           "x": 65555,
-          "y": 25404,
+          "y": 29068,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42997,7 +42997,7 @@ var schemeData =
           "label": "app.get(\"/getSavedNewsData\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var newsDataFilePath = req.query.newsDataFilePath;\n   console.log(\"/getSavedNewsData -> newsDataFilePath: \" + newsDataFilePath);\n\n   var currentWorkNewsDataDateSetupFilePath = \"/home/mike/progr/repo/mm-vis-js/utils/currentNewsDataDate.txt\";\n\n   var currentWorkNewsDataDates = fs.readFileSync(currentWorkNewsDataDateSetupFilePath, 'utf8').trim();\n   var currentWorkNewsDataDatesList = currentWorkNewsDataDates.split(\"\\n\");\n   var currentWorkNewsDataDatesListFiltered = [];\n   for (var i in currentWorkNewsDataDatesList) {\n      var line = currentWorkNewsDataDatesList[i].trim();\n      if ((line.lastIndexOf(\"#\", 0) !== 0) && \n          (line != \"\")) {\n         var dateLine = line.replace(/#.*/g, \"\");\n         currentWorkNewsDataDatesListFiltered.push(dateLine);\n      }\n   }\n\n   if (currentWorkNewsDataDatesListFiltered.length == 0) {\n      console.log(\"currentWorkNewsDataDatesListFiltered.length == 0\");\n      console.log(\"currentWorkNewsDataDateSetupFilePath: \" + currentWorkNewsDataDateSetupFilePath);\n      console.log(\"currentWorkNewsDataDates: \" + currentWorkNewsDataDates);\n      var data = JSON.stringify(\"Error. mvj-serv.js. /getSavedNewsData. currentWorkNewsDataDatesListFiltered.length == 0\");\n      res.send(data);\n      return;\n   }\n\n   var newsData = {};\n\n   for (var i in currentWorkNewsDataDatesListFiltered) {\n      var dirDateLine = currentWorkNewsDataDatesListFiltered[i].trim();\n      var fileDateLine = currentWorkNewsDataDatesListFiltered[i].trim().replace(\" y\", \"\").replace(\" rss\", \"\");\n      var workNewsDataPath = \"/home/mike/progr/repo/mm-vis-js/utils/newsDownloadedData/\" +\n                          \"newsDownloadedData_\" + dirDateLine + \n                          \"/newsDownloadedData_\" + fileDateLine + \".json\";\n\n      console.log(\"workNewsDataPath: \" + workNewsDataPath);\n\n      newsData[fileDateLine] = JSON.parse(fs.readFileSync(workNewsDataPath, 'utf8').trim());\n   }\n\n   var data = JSON.stringify(newsData);\n   res.send(data);\n\n});",
           "id": "indx1_1959c0",
           "x": 65261,
-          "y": 20914,
+          "y": 24720,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43108,7 +43108,7 @@ var schemeData =
           "label": "app.get(\"/getSavedNewsData\". query.newsDataFilePath",
           "id": "indx1_1960c0",
           "x": 67352,
-          "y": 20737,
+          "y": 24543,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43145,7 +43145,7 @@ var schemeData =
           "label": "Get news data from file system to add then to page",
           "id": "indx1_1961c0",
           "x": 66890,
-          "y": 20786,
+          "y": 24592,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43182,7 +43182,7 @@ var schemeData =
           "label": "Get Saved News Data",
           "id": "indx1_2072c0",
           "x": 68705,
-          "y": 21009,
+          "y": 24815,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -44608,7 +44608,7 @@ var schemeData =
           "label": "app.get(\"/test\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n\n   var data = JSON.stringify(\"Test done.\");\n   console.log(\"Test done.\");\n   res.send(data);\n\n});",
           "id": "indx1_1959743",
           "x": 65015,
-          "y": 26044,
+          "y": 30009,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -45304,7 +45304,7 @@ var schemeData =
         "indx2_7031": {
           "id": "indx2_7031",
           "x": 66100,
-          "y": 20029,
+          "y": 23835,
           "label": "require 'socksify'\nrequire 'open-uri'\n\nurl = ARGV[0]\np url\nSocksify::proxy(\"127.0.0.1\", some_socks_port) {\n   p open(url).read\n}\n",
           "shape": "box",
           "link": "",
@@ -45422,7 +45422,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_598586",
           "x": 65580,
-          "y": 54248,
+          "y": 59568,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -45458,7 +45458,7 @@ var schemeData =
           "label": "file path: ./app/music2.html",
           "id": "indx1_599586",
           "x": 66605,
-          "y": 54241,
+          "y": 59561,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45490,7 +45490,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_600586",
           "x": 67124,
-          "y": 54227
+          "y": 59547
         },
         "indx1_601586": {
           "color": {
@@ -45523,7 +45523,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/music2.html",
           "id": "indx1_601586",
           "x": 73109,
-          "y": 54925,
+          "y": 60245,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45558,7 +45558,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Music2 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67694,
-          "y": 54169,
+          "y": 59489,
           "id": "indx1_602586",
           "shape": "box",
           "link": "",
@@ -45593,7 +45593,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68099,
-          "y": 54491,
+          "y": 59811,
           "id": "indx1_603586",
           "shape": "box",
           "link": "",
@@ -45628,7 +45628,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68271,
-          "y": 55021,
+          "y": 60341,
           "id": "indx1_604586",
           "shape": "box",
           "link": "",
@@ -45663,7 +45663,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68123,
-          "y": 55721,
+          "y": 61041,
           "id": "indx1_605586",
           "shape": "box",
           "link": "",
@@ -45699,7 +45699,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.012, x: 104807, y: 18023};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68391,
-          "y": 56468,
+          "y": 61788,
           "id": "indx1_606586",
           "shape": "box",
           "link": "",
@@ -50262,10 +50262,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "app.get(\"/showNews\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var fileName = req.query.fileName;\n   var selectHours = req.query.selectHours;\n   var path = \"./newsDownloadedData/\" + fileName + \"/\" + fileName + \".json\"\n\n   var contents = fs.readFileSync(path, 'utf8');\n   var dataFileData = contents.trim();\n\n   data = JSON.parse(dataFileData);\n\n   var lines = \"\";\n   lines += \"<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\\n\";\n   for (var i in data.newsChannelsDataList) {\n      var channelData = data.newsChannelsDataList[i];\n      data.newsChannelsDataList[i].filteredNews = [];\n      for (var j in channelData.newNewsList) {\n         var news = channelData.newNewsList[j];\n         if (typeof news.pubDateCurrentLine !== \"undefined\") {\n            if (news.pubDateCurrentLine.match(/.*час.*/g) ||\n                news.pubDateCurrentLine.match(/.*день.*/g) ||\n                news.pubDateCurrentLine.match(/.*hour.*/g) ||\n                news.pubDateCurrentLine.match(/.*day.*/g)) {\n               data.newsChannelsDataList[i].filteredNews.push(news);\n            }\n         } else {\n            var startOfYesterday = moment().subtract(1, 'days').startOf('day');\n            if (startOfYesterday < moment(new Date(news.pubDate)) ||\n                news.link.match(/.*libgen.*/g) != null) {\n               data.newsChannelsDataList[i].filteredNews.push(news);\n            }\n         }\n      }\n   }\n   for (var i in data.newsChannelsDataList) {\n      var channelData = data.newsChannelsDataList[i];\n      if (channelData.filteredNews.length == 0) continue;\n      lines += \"<b><a href='\" + channelData.channelNode.link + \"'>\" + channelData.channelNode.label + \"</a></b><br>\\n\";\n      for (var j in channelData.filteredNews) {\n         var news = channelData.filteredNews[j];\n\n         if (typeof news.pubDateCurrentLine !== \"undefined\") {\n            var dateLine = news.pubDateCurrentLine;\n            if ((news.pubDateCurrentLine.match(/.*час.*/g) ||\n                news.pubDateCurrentLine.match(/.*hour.*/g)) && (\n                typeof selectHours !== \"undefined\" && selectHours != \"\")) {\n               var selectHours = parseInt(selectHours, 10);\n               var dateHour = dateLine.replace(/.*?(\\d+).*/g,\"$1\");\n               dateHour = parseInt(dateHour, 10);\n               if (dateHour < selectHours) dateLine = \"<b>\" + dateLine + \"</b>\";\n            }\n            lines += \"<a style='margin-left: 20px' href='\" + news.link + \"'>\" + news.title + \"</a> \" + dateLine + \"<br>\\n\";\n         } else {\n            lines += \"<a style='margin-left: 20px' href='\" + news.link + \"'>\" + news.title + \"</a> \" + news.pubDate + \"<br>\\n\";\n         }\n      }\n   }\n\n   lines += \"<script>\\n\";\n   lines += \"$(document).ready(function(){\\n\";\n   lines += \"   $('a').mousedown(function(event) {\\n\";\n   lines += \"      if (event.which == 3) console.log('right click');\\n\";\n   lines += \"   });\\n\";\n   lines += \"});\\n\";\n   lines += \"</script>\\n\";\n\n   //var data = JSON.stringify(lines);\n   console.log(\"showNews\");\n   res.send(lines);\n\n});",
+          "label": "app.get(\"/showNews\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var fileName = req.query.fileName;\n   var selectHours = req.query.selectHours;\n   var path = \"./newsDownloadedData/\" + fileName + \"/\" + fileName + \".json\"\n\n   var contents = fs.readFileSync(path, 'utf8');\n   var dataFileData = contents.trim();\n\n   data = JSON.parse(dataFileData);\n\n   var lines = \"\";\n   lines += \"<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\\n\";\n   for (var i in data.newsChannelsDataList) {\n      var channelData = data.newsChannelsDataList[i];\n      data.newsChannelsDataList[i].filteredNews = [];\n      for (var j in channelData.newNewsList) {\n         var news = channelData.newNewsList[j];\n         if (typeof news.pubDateCurrentLine !== \"undefined\") {\n            if (news.pubDateCurrentLine.match(/.*час.*/g) ||\n                news.pubDateCurrentLine.match(/.*день.*/g) ||\n                news.pubDateCurrentLine.match(/.*hour.*/g) ||\n                news.pubDateCurrentLine.match(/.*day.*/g)) {\n               data.newsChannelsDataList[i].filteredNews.push(news);\n            }\n         } else {\n            var startOfYesterday = moment().subtract(1, 'days').startOf('day');\n            if (startOfYesterday < moment(new Date(news.pubDate)) ||\n                news.link.match(/.*libgen.*/g) != null) {\n               data.newsChannelsDataList[i].filteredNews.push(news);\n            }\n         }\n      }\n   }\n   for (var i in data.newsChannelsDataList) {\n      var channelData = data.newsChannelsDataList[i];\n      if (channelData.filteredNews.length == 0) continue;\n      lines += \"<b><a href='\" + channelData.channelNode.link + \"'>\" + channelData.channelNode.label + \"</a></b><br>\\n\";\n      for (var j in channelData.filteredNews) {\n         var news = channelData.filteredNews[j];\n         var newsId = news.link.replace(\"https://www.youtube.com/watch?v=\",\"\");\n         var thumbnailLink = \"https://i.ytimg.com/vi/\" + newsId + \"/hqdefault.jpg\";\n\n         if (typeof news.pubDateCurrentLine !== \"undefined\") {\n            var dateLine = news.pubDateCurrentLine;\n            if ((news.pubDateCurrentLine.match(/.*час.*/g) ||\n                news.pubDateCurrentLine.match(/.*hour.*/g)) && (\n                typeof selectHours !== \"undefined\" && selectHours != \"\")) {\n               var selectHours = parseInt(selectHours, 10);\n               var dateHour = dateLine.replace(/.*?(\\d+).*/g,\"$1\");\n               dateHour = parseInt(dateHour, 10);\n               if (dateHour < selectHours) dateLine = \"<b>\" + dateLine + \"</b>\";\n            }\n            lines += \"<a style='margin-left: 20px' href='\" + news.link + \"'>\" + news.title + \"</a> \" + dateLine + \"<br>\\n\";\n            lines += \"<img style='width:200px;margin-left: 220px' src='\" + thumbnailLink + \"' border='0'/><br>\\n\";\n         } else {\n            lines += \"<a style='margin-left: 20px' href='\" + news.link + \"'>\" + news.title + \"</a> \" + news.pubDate + \"<br>\\n\";\n            lines += \"<img style='width:200px;margin-left: 220px' src='\" + thumbnailLink + \"' border='0'/><br>\\n\";\n         }\n      }\n   }\n\n   lines += \"<script>\\n\";\n   lines += \"$(document).ready(function(){\\n\";\n   lines += \"   $('a').mousedown(function(event) {\\n\";\n   lines += \"      if (event.which == 3) console.log('right click');\\n\";\n   lines += \"   });\\n\";\n   lines += \"});\\n\";\n   lines += \"</script>\\n\";\n\n   //var data = JSON.stringify(lines);\n   console.log(\"showNews\");\n   res.send(lines);\n\n});",
           "id": "index-a_635",
           "x": 65259,
-          "y": 26799,
+          "y": 30979,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50301,7 +50301,7 @@ var schemeData =
           "label": "Test",
           "id": "index-a_636",
           "x": 67096,
-          "y": 26108,
+          "y": 30073,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50337,7 +50337,7 @@ var schemeData =
           "label": "just test server running",
           "id": "index-a_637",
           "x": 66802,
-          "y": 25883,
+          "y": 29848,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50374,7 +50374,7 @@ var schemeData =
           "label": "app.get(\"/test\"",
           "id": "index-a_638",
           "x": 66888,
-          "y": 25829,
+          "y": 29794,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50411,7 +50411,7 @@ var schemeData =
           "label": "Show News",
           "id": "index-a_639",
           "x": 67785,
-          "y": 26866,
+          "y": 31046,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50448,7 +50448,7 @@ var schemeData =
           "label": "Show list of news from new downloaded rss or youtube data",
           "id": "index-a_640",
           "x": 66920,
-          "y": 26641,
+          "y": 30821,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50485,7 +50485,7 @@ var schemeData =
           "label": "app.get(\"/showNews. query.fileName",
           "id": "index-a_641",
           "x": 67141,
-          "y": 26587,
+          "y": 30767,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50494,7 +50494,7 @@ var schemeData =
         "indx5_2361": {
           "id": "indx5_2361",
           "x": 65186,
-          "y": 22027,
+          "y": 25691,
           "label": "   function getNextNumberForPrefixedId(idsList, prefix) {\n\n      var pageNodeIdsWithPrefix = [];\n      for (var i in idsList) {\n         if (idsList[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(idsList[i]);\n      }\n\n      var prefixedNodeIdsNumbersParts = [];\n      for (var i in pageNodeIdsWithPrefix) {\n         prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,\"\"),10));\n      }\n      prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);\n\n      var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];\n\n      if (typeof startingPrefixedNodeId === \"undefined\") {\n         startingPrefixedNodeId = 0;\n      } else {\n         startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;\n      }\n      return startingPrefixedNodeId\n   }",
           "shape": "box",
           "link": "",
@@ -50539,7 +50539,7 @@ var schemeData =
           "label": "getNextNumberForPrefixedId(idsList, prefix)",
           "id": "index-a_645",
           "x": 67221,
-          "y": 21846,
+          "y": 25510,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50576,7 +50576,7 @@ var schemeData =
           "label": "Get new number for a row of nodeIds with specific prefix",
           "id": "index-a_646",
           "x": 66909,
-          "y": 21894,
+          "y": 25558,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50613,7 +50613,7 @@ var schemeData =
           "label": "New prefixed nodeId",
           "id": "index-a_647",
           "x": 68563,
-          "y": 22151,
+          "y": 25815,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -50622,7 +50622,7 @@ var schemeData =
         "indx5_2365": {
           "id": "indx5_2365",
           "x": 65493,
-          "y": 23351,
+          "y": 27015,
           "label": "Using dataCash",
           "shape": "box",
           "link": "",
@@ -50639,7 +50639,7 @@ var schemeData =
         "indx5_2366": {
           "id": "indx5_2366",
           "x": 65815,
-          "y": 22104,
+          "y": 25768,
           "label": "TO FIX: Ids like \"a_1c\", \"a_1b\", \"a_1d\" will be all counted as \"1\", not as 3 different ids.",
           "shape": "box",
           "link": "",
@@ -50652,6 +50652,191 @@ var schemeData =
             "border": ""
           },
           "borderWidth": "0"
+        },
+        "index-a_649": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "function getNewsItemYoutubePreviewImage(elem) {\n\n   console.log(\"1getNewsItemYoutubePreviewImage(elem)!!!!!!!!!!!!!!!\");\n\n   console.log(elem.toString());\n   \n}",
+          "id": "index-a_649",
+          "x": 65802,
+          "y": 11041,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1907"
+        },
+        "index-a_650": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 400,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Youtube Preview Image",
+          "id": "index-a_650",
+          "x": 68958,
+          "y": 11098,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1980"
+        },
+        "index-a_651": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Парсим данные новости Youtube и возвращаем картинку превью",
+          "id": "index-a_651",
+          "x": 67070,
+          "y": 10862,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1939"
+        },
+        "index-a_652": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getNewsItemYoutubePreviewImage(elem)",
+          "id": "index-a_652",
+          "x": 67324,
+          "y": 10805,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1920"
+        },
+        "index-a_653": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "testRun == \"true\" - use this link parameter for test run",
+          "id": "index-a_653",
+          "x": 65831,
+          "y": 22008,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1939"
         }
       },
       "length": 0,
@@ -97714,6 +97899,362 @@ var schemeData =
           "from": "indx5_2361",
           "to": "indx5_2366",
           "id": "indx5_5178"
+        },
+        "indx1_6282838": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "indx1_6282838",
+          "from": "indx1_1906838",
+          "to": "indx1_1911838"
+        },
+        "indx1_6300838": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6300838",
+          "from": "indx1_1911838",
+          "to": "indx1_1928838"
+        },
+        "indx1_6314838": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6314838",
+          "from": "indx1_1911838",
+          "to": "indx1_1951838"
+        },
+        "indx1_6362838": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6362838",
+          "from": "indx1_1911838",
+          "to": "indx1_1999838"
+        },
+        "indx1_6282446": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "indx1_6282446",
+          "from": "indx1_1906446",
+          "to": "indx1_1911446"
+        },
+        "indx1_6300446": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6300446",
+          "from": "indx1_1911446",
+          "to": "indx1_1928446"
+        },
+        "indx1_6314446": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6314446",
+          "from": "indx1_1911446",
+          "to": "indx1_1951446"
+        },
+        "indx1_6362446": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6362446",
+          "from": "indx1_1911446",
+          "to": "indx1_1999446"
+        },
+        "indx1_6362927": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6362927",
+          "from": "indx1_1911927",
+          "to": "indx1_1999927"
+        },
+        "indx1_6314580": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6314580",
+          "from": "indx1_1911580",
+          "to": "indx1_1951580"
+        },
+        "indx1_6300222": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6300222",
+          "from": "indx1_1911222",
+          "to": "indx1_1928222"
+        },
+        "indx5_5288": {
+          "from": "index-a_649",
+          "to": "index-a_650",
+          "id": "indx5_5288"
+        },
+        "indx5_5289": {
+          "from": "index-a_649",
+          "to": "index-a_651",
+          "id": "indx5_5289"
+        },
+        "indx5_5290": {
+          "from": "index-a_649",
+          "to": "index-a_652",
+          "id": "indx5_5290"
+        },
+        "indx5_5291": {
+          "from": "indx1_1906",
+          "to": "index-a_649",
+          "id": "indx5_5291",
+          "label": "code",
+          "color": {
+            "color": "rgb(0,0,0)"
+          },
+          "dashes": false,
+          "arrows": {
+            "from": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "to": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          }
+        },
+        "indx1_6309583": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6309583",
+          "from": "indx1_1905583",
+          "to": "indx1_1956583"
+        },
+        "indx5_5292": {
+          "from": "indx1_1905",
+          "to": "index-a_653",
+          "id": "indx5_5292"
         }
       },
       "length": 0,
@@ -97776,7 +98317,7 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65672.99999999996,
+      "x": 65673.00000000032,
       "y": 17507.999999999993
     }
   }

@@ -1677,7 +1677,7 @@ var schemeData =
         "indx1_222": {
           "label": "Main\nMenu",
           "x": 16004,
-          "y": 46994,
+          "y": 49366,
           "font": {
             "size": 72,
             "align": "left"
@@ -1694,31 +1694,31 @@ var schemeData =
         "indx1_223": {
           "label": "Development",
           "x": 16304,
-          "y": 47444,
+          "y": 49816,
           "id": "indx1_223"
         },
         "indx1_224": {
           "label": "12/20/2019",
           "x": 16437,
-          "y": 47444,
+          "y": 49816,
           "id": "indx1_224"
         },
         "indx1_225": {
           "label": "init",
           "x": 16554,
-          "y": 47444,
+          "y": 49816,
           "id": "indx1_225"
         },
         "indx1_226": {
           "label": "Notes",
           "x": 16281,
-          "y": 46594,
+          "y": 48966,
           "id": "indx1_226"
         },
         "indx1_227": {
           "label": "Dictionary of\nconcepts",
           "x": 19178,
-          "y": 13407,
+          "y": 15779,
           "id": "indx1_227",
           "shape": "box",
           "link": "",
@@ -1735,121 +1735,121 @@ var schemeData =
         "indx1_228": {
           "label": "Details, thoughts",
           "x": 16462,
-          "y": 46458,
+          "y": 48830,
           "id": "indx1_228"
         },
         "indx1_229": {
           "label": "Sections",
           "x": 16428,
-          "y": 46844,
+          "y": 49216,
           "id": "indx1_229"
         },
         "indx1_230": {
           "label": "Books",
           "x": 16518,
-          "y": 46694,
+          "y": 49066,
           "id": "indx1_230"
         },
         "indx1_231": {
           "label": "R&D institutions",
           "x": 16549,
-          "y": 46719,
+          "y": 49091,
           "id": "indx1_231"
         },
         "indx1_232": {
           "label": "Sites",
           "x": 16514,
-          "y": 46744,
+          "y": 49116,
           "id": "indx1_232"
         },
         "indx1_233": {
           "label": "Magazines",
           "x": 16533,
-          "y": 46769,
+          "y": 49141,
           "id": "indx1_233"
         },
         "indx1_234": {
           "label": "Articles",
           "x": 16522,
-          "y": 46794,
+          "y": 49166,
           "id": "indx1_234"
         },
         "indx1_235": {
           "label": "Media content",
           "x": 16544,
-          "y": 46819,
+          "y": 49191,
           "id": "indx1_235"
         },
         "indx1_236": {
           "label": "Misc. web links",
           "x": 16546,
-          "y": 46844,
+          "y": 49216,
           "id": "indx1_236"
         },
         "indx1_237": {
           "label": "Projects",
           "x": 16524,
-          "y": 46869,
+          "y": 49241,
           "id": "indx1_237"
         },
         "indx1_238": {
           "label": "Tools",
           "x": 16516,
-          "y": 46894,
+          "y": 49266,
           "id": "indx1_238"
         },
         "indx1_239": {
           "label": "Organizations",
           "x": 16543,
-          "y": 46919,
+          "y": 49291,
           "id": "indx1_239"
         },
         "indx1_240": {
           "label": "Standarts",
           "x": 16529,
-          "y": 46944,
+          "y": 49316,
           "id": "indx1_240"
         },
         "indx1_241": {
           "label": "Forums, Groups",
           "x": 16551,
-          "y": 46969,
+          "y": 49341,
           "id": "indx1_241"
         },
         "indx1_242": {
           "label": "Laws",
           "x": 16515,
-          "y": 46994,
+          "y": 49366,
           "id": "indx1_242"
         },
         "indx1_243": {
           "label": "Adjacent Themes",
           "x": 16554,
-          "y": 47019,
+          "y": 49391,
           "id": "indx1_243"
         },
         "indx1_244": {
           "label": "Questions",
           "x": 16294,
-          "y": 47144,
+          "y": 49516,
           "id": "indx1_244"
         },
         "indx1_245": {
           "label": "Problems",
           "x": 16292,
-          "y": 47244,
+          "y": 49616,
           "id": "indx1_245"
         },
         "indx1_246": {
           "label": "Goals",
           "x": 16281,
-          "y": 47344,
+          "y": 49716,
           "id": "indx1_246"
         },
         "indx1_247": {
           "id": "indx1_247",
           "x": 16799,
-          "y": 46305,
+          "y": 48677,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -1866,7 +1866,7 @@ var schemeData =
         "indx1_248": {
           "id": "indx1_248",
           "x": 16888,
-          "y": 46414,
+          "y": 48786,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -1883,31 +1883,31 @@ var schemeData =
         "indx1_249": {
           "id": "indx1_249",
           "x": 17348,
-          "y": 46414,
+          "y": 48786,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "indx1_250": {
           "id": "indx1_250",
           "x": 17421,
-          "y": 46448,
+          "y": 48820,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "indx1_251": {
           "id": "indx1_251",
           "x": 16765,
-          "y": 46342,
+          "y": 48714,
           "label": "This scheme is just for convenience."
         },
         "indx1_252": {
           "id": "indx1_252",
           "x": 16728,
-          "y": 46589,
+          "y": 48961,
           "label": "This page is \"index.html\""
         },
         "indx1_253": {
           "id": "indx1_253",
           "x": 16940,
-          "y": 46590,
+          "y": 48962,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -1924,31 +1924,31 @@ var schemeData =
         "indx1_254": {
           "id": "indx1_254",
           "x": 16830,
-          "y": 46500,
+          "y": 48872,
           "label": "Each big node with page name contains link to this page."
         },
         "indx1_255": {
           "id": "indx1_255",
           "x": 17117,
-          "y": 46498,
+          "y": 48870,
           "label": "How to use this links?"
         },
         "indx1_256": {
           "id": "indx1_256",
           "x": 17277,
-          "y": 46497,
+          "y": 48869,
           "label": "1) Select big node"
         },
         "indx1_257": {
           "id": "indx1_257",
           "x": 17390,
-          "y": 46533,
+          "y": 48905,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "indx1_258": {
           "id": "indx1_258",
           "x": 17102,
-          "y": 46343,
+          "y": 48715,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -4415,7 +4415,7 @@ var schemeData =
           "label": "engineering.html",
           "id": "indx1_219c10",
           "x": 24352,
-          "y": 5563,
+          "y": 7564,
           "shape": "box",
           "link": "engineering.html",
           "borderWidth": "",
@@ -4452,7 +4452,7 @@ var schemeData =
           "label": "news1.html",
           "id": "indx1_219c11",
           "x": 23185,
-          "y": 7263,
+          "y": 9264,
           "shape": "box",
           "link": "news1.html",
           "borderWidth": "",
@@ -4489,7 +4489,7 @@ var schemeData =
           "label": "news11.html",
           "id": "indx1_219c12",
           "x": 23463,
-          "y": 8963,
+          "y": 10964,
           "shape": "box",
           "link": "news11.html",
           "borderWidth": "",
@@ -4526,7 +4526,7 @@ var schemeData =
           "label": "news2.html",
           "id": "indx1_219c13",
           "x": 23185,
-          "y": 10663,
+          "y": 12664,
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "",
@@ -4563,7 +4563,7 @@ var schemeData =
           "label": "news3.html",
           "id": "indx1_219c14",
           "x": 23185,
-          "y": 12363,
+          "y": 14364,
           "shape": "box",
           "link": "news3.html",
           "borderWidth": "",
@@ -4600,7 +4600,7 @@ var schemeData =
           "label": "news4.html",
           "id": "indx1_219c16",
           "x": 23185,
-          "y": 14063,
+          "y": 16064,
           "shape": "box",
           "link": "news4.html",
           "borderWidth": "",
@@ -4637,7 +4637,7 @@ var schemeData =
           "label": "news41.html",
           "id": "indx1_219c17",
           "x": 23463,
-          "y": 15763,
+          "y": 17764,
           "shape": "box",
           "link": "news41.html",
           "borderWidth": "",
@@ -4674,7 +4674,7 @@ var schemeData =
           "label": "news5.html",
           "id": "indx1_219c18",
           "x": 23185,
-          "y": 17463,
+          "y": 19464,
           "shape": "box",
           "link": "news5.html",
           "borderWidth": "",
@@ -4711,7 +4711,7 @@ var schemeData =
           "label": "news51.html",
           "id": "indx1_219c19",
           "x": 23463,
-          "y": 19163,
+          "y": 21164,
           "shape": "box",
           "link": "news51.html",
           "borderWidth": "",
@@ -4748,7 +4748,7 @@ var schemeData =
           "label": "news52.html",
           "id": "indx1_219c20",
           "x": 23463,
-          "y": 20863,
+          "y": 22864,
           "shape": "box",
           "link": "news52.html",
           "borderWidth": "",
@@ -4785,7 +4785,7 @@ var schemeData =
           "label": "news53.html",
           "id": "indx1_219c21",
           "x": 23463,
-          "y": 22563,
+          "y": 24564,
           "shape": "box",
           "link": "news53.html",
           "borderWidth": "",
@@ -4822,7 +4822,7 @@ var schemeData =
           "label": "news6.html",
           "id": "indx1_219c22",
           "x": 23185,
-          "y": 24263,
+          "y": 26264,
           "shape": "box",
           "link": "news6.html",
           "borderWidth": "",
@@ -4859,7 +4859,7 @@ var schemeData =
           "label": "news61.html",
           "id": "indx1_219c23",
           "x": 23463,
-          "y": 25963,
+          "y": 27964,
           "shape": "box",
           "link": "news61.html",
           "borderWidth": "",
@@ -4896,7 +4896,7 @@ var schemeData =
           "label": "news7.html",
           "id": "indx1_219c24",
           "x": 23185,
-          "y": 27663,
+          "y": 29664,
           "shape": "box",
           "link": "news7.html",
           "borderWidth": "",
@@ -4933,7 +4933,7 @@ var schemeData =
           "label": "youtube1.html",
           "id": "indx1_219c25",
           "x": 23797,
-          "y": 29363,
+          "y": 31364,
           "shape": "box",
           "link": "youtube1.html",
           "borderWidth": "",
@@ -4970,7 +4970,7 @@ var schemeData =
           "label": "youtube2.html",
           "id": "indx1_219c26",
           "x": 23797,
-          "y": 31063,
+          "y": 33064,
           "shape": "box",
           "link": "youtube2.html",
           "borderWidth": "",
@@ -5007,7 +5007,7 @@ var schemeData =
           "label": "youtube3.html",
           "id": "indx1_219c27",
           "x": 23797,
-          "y": 32763,
+          "y": 34764,
           "shape": "box",
           "link": "youtube3.html",
           "borderWidth": "",
@@ -5044,7 +5044,7 @@ var schemeData =
           "label": "nature.html",
           "id": "indx1_219c28",
           "x": 23157,
-          "y": 34463,
+          "y": 36464,
           "shape": "box",
           "link": "nature.html",
           "borderWidth": "",
@@ -5081,7 +5081,7 @@ var schemeData =
           "label": "timelines.html",
           "id": "indx1_219c29",
           "x": 23712,
-          "y": 36163,
+          "y": 38164,
           "shape": "box",
           "link": "timelines.html",
           "borderWidth": "",
@@ -5118,7 +5118,7 @@ var schemeData =
           "label": "java.html",
           "id": "indx1_219c29c0",
           "x": 22657,
-          "y": 37863,
+          "y": 39864,
           "shape": "box",
           "link": "java.html",
           "borderWidth": "",
@@ -5155,7 +5155,7 @@ var schemeData =
           "label": "java-api.html",
           "id": "indx1_219c29c1",
           "x": 23490,
-          "y": 39563,
+          "y": 41564,
           "shape": "box",
           "link": "java-api.html",
           "borderWidth": "",
@@ -5192,7 +5192,7 @@ var schemeData =
           "label": "sa1.html",
           "id": "indx1_219c29c2",
           "x": 22546,
-          "y": 41263,
+          "y": 43264,
           "shape": "box",
           "link": "sa1.html",
           "borderWidth": "",
@@ -5229,7 +5229,7 @@ var schemeData =
           "label": "lisp.html",
           "id": "indx1_219c29c3",
           "x": 22485,
-          "y": 42963,
+          "y": 44964,
           "shape": "box",
           "link": "lisp.html",
           "borderWidth": "",
@@ -5303,11 +5303,48 @@ var schemeData =
           "label": "lang.html",
           "id": "index-a_0",
           "x": 22680,
-          "y": 44758,
+          "y": 46759,
           "shape": "box",
           "link": "lang.html",
           "borderWidth": "",
           "oldId": "indx1_219c29"
+        },
+        "index-a_1": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "admin.html",
+          "id": "index-a_1",
+          "x": 23102,
+          "y": 5719,
+          "shape": "box",
+          "link": "admin.html",
+          "borderWidth": "",
+          "oldId": "indx1_219"
         }
       },
       "length": 0,
@@ -10842,10 +10879,40 @@ var schemeData =
           "from": "indx1_227274",
           "to": "indx1_219c29c3274"
         },
-        "49b9557a-580e-46c6-8cf7-662b39531e5e": {
+        "indx5_109": {
           "from": "indx1_227",
           "to": "index-a_0",
-          "id": "49b9557a-580e-46c6-8cf7-662b39531e5e"
+          "id": "indx5_109"
+        },
+        "indx2_12192": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx2_12192",
+          "from": "indx1_2272",
+          "to": "indx1_219c92"
+        },
+        "indx5_219": {
+          "from": "indx1_227",
+          "to": "index-a_1",
+          "id": "indx5_219"
         }
       },
       "length": 0,
@@ -10895,8 +10962,8 @@ var schemeData =
   "setup": {
     "scale": 0.0167,
     "viewPosition": {
-      "x": 15702.999998802406,
-      "y": 7380.000004850295
+      "x": 15703.00000245509,
+      "y": 7379.99999892216
     }
   }
 }

@@ -5710,7 +5710,7 @@ var schemeData =
         "indx1_491": {
           "label": "Dictionary of\nconcepts",
           "x": 89250,
-          "y": 11663,
+          "y": 11699,
           "id": "indx1_491"
         },
         "indx1_492": {
@@ -6538,7 +6538,7 @@ var schemeData =
           "label": "Case",
           "link": "",
           "x": 89416,
-          "y": 11979,
+          "y": 12033,
           "id": "indx1_529",
           "color": {
             "highlight": {
@@ -6578,8 +6578,8 @@ var schemeData =
         "indx1_530": {
           "label": "Get difference between dates in days",
           "link": "",
-          "x": 89839,
-          "y": 11979,
+          "x": 89635,
+          "y": 12000,
           "id": "indx1_530",
           "color": {
             "highlight": {
@@ -6619,8 +6619,8 @@ var schemeData =
         "indx1_531": {
           "label": "require 'date'",
           "link": "",
-          "x": 90055,
-          "y": 11962,
+          "x": 89851,
+          "y": 11983,
           "id": "indx1_531",
           "color": {
             "highlight": {
@@ -6660,8 +6660,8 @@ var schemeData =
         "indx1_532": {
           "label": "DateTime.parse(\"28-May-2010\")",
           "link": "",
-          "x": 90115,
-          "y": 11986,
+          "x": 89911,
+          "y": 12007,
           "id": "indx1_532",
           "color": {
             "highlight": {
@@ -6701,8 +6701,8 @@ var schemeData =
         "indx1_533": {
           "label": "(date2.mjd - date1.mjd).to_i",
           "link": "",
-          "x": 90101,
-          "y": 12010,
+          "x": 89897,
+          "y": 12031,
           "id": "indx1_533",
           "color": {
             "highlight": {
@@ -36093,7 +36093,7 @@ var schemeData =
         "indx1_1986": {
           "label": "Dictionary of\nconcepts",
           "x": 126665,
-          "y": -1927,
+          "y": -1875,
           "id": "indx1_1986"
         },
         "indx1_1987": {
@@ -50948,6 +50948,153 @@ var schemeData =
           "shape": "box",
           "link": "lisp.html",
           "borderWidth": "0"
+        },
+        "indx5_109": {
+          "id": "indx5_109",
+          "x": 89713,
+          "y": 12076,
+          "label": "Time.month or Time.day returns number without leading zero."
+        },
+        "indx5_110": {
+          "id": "indx5_110",
+          "x": 90159,
+          "y": 12076,
+          "label": "Use Time.strftime(\"%m\") or Time.strftime(\"%d\") for leading zero"
+        },
+        "indx5_222": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "ruby -ropen-uri -e 'eval open(\"https://git.io/vQhWq\").read'",
+          "id": "indx5_222",
+          "x": 127370,
+          "y": -1777
+        },
+        "indx5_223": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "https://bundler.io/v1.16/guides/rubygems_tls_ssl_troubleshooting_guide.html",
+          "id": "indx5_223",
+          "x": 127432,
+          "y": -1818,
+          "link": "https://bundler.io/v1.16/guides/rubygems_tls_ssl_troubleshooting_guide.html"
+        },
+        "indx5_224": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "How to troubleshoot RubyGems\nand Bundler TLS/SSL Issues",
+          "id": "indx5_224",
+          "x": 127032,
+          "y": -1782,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx5_225": {
+          "id": "indx5_225",
+          "x": 126844,
+          "y": -1778,
+          "label": "HowTos",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "indx5_226": {
+          "id": "indx5_226",
+          "x": 127264,
+          "y": -1737,
+          "label": "Updating System Clock",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "indx5_227": {
+          "id": "indx5_227",
+          "x": 127473,
+          "y": -1737,
+          "label": "sudo ntpdate ntp.ubuntu.com"
         }
       },
       "length": 0,
@@ -72770,6 +72917,110 @@ var schemeData =
           "from": "indx1_2657",
           "to": "indx2_7896",
           "id": "indx2_10611"
+        },
+        "indx5_111": {
+          "from": "indx5_109",
+          "to": "indx5_110",
+          "id": "indx5_111"
+        },
+        "indx5_112": {
+          "from": "indx1_529",
+          "to": "indx5_109",
+          "id": "indx5_112"
+        },
+        "indx5_228": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx5_228",
+          "from": "indx5_224",
+          "to": "indx5_222"
+        },
+        "indx5_229": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx5_229",
+          "from": "indx5_224",
+          "to": "indx5_223"
+        },
+        "indx5_230": {
+          "from": "indx5_226",
+          "to": "indx5_227",
+          "id": "indx5_230"
+        },
+        "indx5_231": {
+          "from": "indx5_224",
+          "to": "indx5_226",
+          "id": "indx5_231"
+        },
+        "indx5_232": {
+          "from": "indx5_225",
+          "to": "indx5_224",
+          "id": "indx5_232"
+        },
+        "indx5_233": {
+          "from": "indx1_1986",
+          "to": "indx5_225",
+          "id": "indx5_233"
         }
       },
       "length": 0,
@@ -72809,7 +73060,7 @@ var schemeData =
   "setup": {
     "scale": 0.015,
     "viewPosition": {
-      "x": 98162.00000333326,
+      "x": 98161.99999666667,
       "y": 11141.000003333329
     }
   }

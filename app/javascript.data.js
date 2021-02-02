@@ -51669,27 +51669,27 @@ var schemeData =
           "x": 119096,
           "y": -4418
         },
-        "7f79115e-0561-4e03-b939-f01e5e617230": {
-          "id": "7f79115e-0561-4e03-b939-f01e5e617230",
+        "indx5_109": {
+          "id": "indx5_109",
           "x": 94250,
           "y": -255,
           "label": ".mousedown()"
         },
-        "1e751b8a-1beb-4a90-9b1a-9215f78eaebb": {
-          "id": "1e751b8a-1beb-4a90-9b1a-9215f78eaebb",
+        "indx5_110": {
+          "id": "indx5_110",
           "x": 94481,
           "y": -349,
           "label": "https://api.jquery.com/mousedown/",
           "link": "https://api.jquery.com/mousedown/"
         },
-        "7a6ab36b-a9d4-45ac-91b2-96fa4e674bc1": {
-          "id": "7a6ab36b-a9d4-45ac-91b2-96fa4e674bc1",
+        "indx5_111": {
+          "id": "indx5_111",
           "x": 94676,
           "y": -324,
           "label": "Bind an event handler to the \"mousedown\" JavaScript event, or trigger that event on an element."
         },
-        "90994e97-435e-4c42-943c-a2a3bd8f308f": {
-          "id": "90994e97-435e-4c42-943c-a2a3bd8f308f",
+        "indx5_112": {
+          "id": "indx5_112",
           "x": 94526,
           "y": -265,
           "label": "$(document).ready(function(){\n   $('.myclass').mousedown(function(event) {\n      if (event.which == 3) console.log(\"right click\");\n   });\n});",
@@ -51705,8 +51705,8 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "d3ec5ac2-c2cd-45b5-a806-b5e09cb5ed10": {
-          "id": "d3ec5ac2-c2cd-45b5-a806-b5e09cb5ed10",
+        "indx5_113": {
+          "id": "indx5_113",
           "x": 94402,
           "y": -191,
           "label": "1 - left\n2 - middle\n3 - right",
@@ -90235,30 +90235,30 @@ var schemeData =
           "to": "indx2_8878",
           "id": "indx2_12118"
         },
-        "24c37da0-0328-4f3a-95ec-8bce06c0b716": {
-          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
-          "to": "1e751b8a-1beb-4a90-9b1a-9215f78eaebb",
-          "id": "24c37da0-0328-4f3a-95ec-8bce06c0b716"
+        "indx5_114": {
+          "from": "indx5_109",
+          "to": "indx5_110",
+          "id": "indx5_114"
         },
-        "2512ec2c-878c-42e6-9317-276867a58f53": {
-          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
-          "to": "7a6ab36b-a9d4-45ac-91b2-96fa4e674bc1",
-          "id": "2512ec2c-878c-42e6-9317-276867a58f53"
+        "indx5_115": {
+          "from": "indx5_109",
+          "to": "indx5_111",
+          "id": "indx5_115"
         },
-        "ce7271b5-1f7f-4f1a-8411-bd38f33b79c8": {
-          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
-          "to": "90994e97-435e-4c42-943c-a2a3bd8f308f",
-          "id": "ce7271b5-1f7f-4f1a-8411-bd38f33b79c8"
+        "indx5_116": {
+          "from": "indx5_109",
+          "to": "indx5_112",
+          "id": "indx5_116"
         },
-        "7edb55f1-819f-4a07-9de9-7dd726367715": {
-          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
-          "to": "d3ec5ac2-c2cd-45b5-a806-b5e09cb5ed10",
-          "id": "7edb55f1-819f-4a07-9de9-7dd726367715"
+        "indx5_117": {
+          "from": "indx5_109",
+          "to": "indx5_113",
+          "id": "indx5_117"
         },
-        "1a6d12d8-47dc-475f-9e02-9d6e58cd7ed8": {
+        "indx5_118": {
           "from": "indx1_225",
-          "to": "7f79115e-0561-4e03-b939-f01e5e617230",
-          "id": "1a6d12d8-47dc-475f-9e02-9d6e58cd7ed8"
+          "to": "indx5_109",
+          "id": "indx5_118"
         }
       },
       "length": 0,

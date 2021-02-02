@@ -254,7 +254,9 @@ function alignRawNodesLeft(nodes) {
    }
 
 }
-function waitForTime(checkDate, verboseBool) {
+function waitForTime(newsData, verboseBool) {
+   if (typeof newsData.testRun !== "undefined" && newsData.testRun == "true") return;
+   var checkDate = newsData.queryStartDate;
    var lastDateString = ""; 
    while(checkDate > moment()) {
       var currentDateString = newsDateFormat(moment().toDate());
@@ -593,7 +595,14 @@ function getNewsItemDataSummaryTextNodeLabel(elem) {
    var summaryTextNodeLabel = newNodeLines.join("\n");
    return summaryTextNodeLabel;
 }
-function getNewsItemData(item, channelNode) {
+function getNewsItemYoutubePreviewImage(elem) {
+
+   console.log("1getNewsItemYoutubePreviewImage(elem)!!!!!!!!!!!!!!!");
+
+   console.log(elem.toString());
+   
+}
+function getNewsItemData(item, channelNode, newsData) {
 
    var linkLine = getNewsItemDataLink(item);
    var title = getNewsItemDataTitle(item);
@@ -610,6 +619,12 @@ function getNewsItemData(item, channelNode) {
    object.title = title;
    object.link = linkLine;
    object.summaryTextNodeLabel = summaryTextNodeLabel;
+
+   console.log("2getNewsItemYoutubePreviewImage(elem)!!!!!!!!!!!!!!!");
+   if (newsData.youtubeDownload == true) {
+      getNewsItemYoutubePreviewImage(elem);
+   }
+
    return object;
 }
 function closingNewsDownloadProcess(newsData) {
@@ -676,10 +691,11 @@ function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsDat
 
    return fetch(url)
       .then(function(response){
+
          return response.json();
       })
       .then(function(response) {
-   
+
          var data = response.trim();
 
          if (data == "Error") {
@@ -689,7 +705,7 @@ function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsDat
 
          var itemsObjects = [];
          var itemsObjectsFilteredByLinks = [];
-     
+
          if (newsData.youtubeDownload) {
 
             var doc = new dom().parseFromString(data, 'text/html');
@@ -709,7 +725,10 @@ function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsDat
             //fs.writeFileSync("newsDownloadedData/pageDataCode.txt", pageDataCode);
             var vidsMatches = pageDataCode.match(/title":\{"runs":\[\{"text":".*?"\}\],"access.*?webCommandMetadata":\{"url":".*?",/g);
             if (vidsMatches !== null) {
+               //var i = 0;
                vidsMatches.forEach(function(vidMatch) {
+                  //fs.writeFileSync("newsDownloadedData/pageDataCode" + String(i) + ".txt", vidMatch);
+                  //i = i + 1;
                   var object = {};
                   //object.title = vidMatch.replace(/.*\}\},"simpleText":"(.*?)"\},".*/,"$1");
                   //object.title = vidMatch.replace(/.*\}\},"simpleText":"(.*?)"\}.*/,"$1");
@@ -719,6 +738,7 @@ function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsDat
                   itemsObjects.push(object);
                });
             }
+
             //Check new news item
             itemsObjects.forEach(function(item) {
                if (treeCurrentLinks.indexOf(item.link) < 0 && item.link.match(/watch\?v=/) != null) {
@@ -749,7 +769,7 @@ function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsDat
    
             console.log("items.length: " + items.length);
             items.forEach(function(item) {
-               var itemData = getNewsItemData(item, channelNode);
+               var itemData = getNewsItemData(item, channelNode, newsData);
                itemsObjects.push(itemData);
             });
 
@@ -869,19 +889,20 @@ newsData.newsChannelsData.channelsList = Object.keys(newsData.allChannelsMap).so
    return a.toLowerCase().localeCompare(b.toLowerCase());
 });
 
-function waitForTime(dateLine) {
-   var lastDate = ""; 
-   while(1 < 2) {
-      var date = new Date().toLocaleString("ru-RU");
-      if (lastDate != date) {
-         console.log(date + ". dateLine to wait: " + dateLine);
-      }
-      if (dateLine == date) {
-         return;
-      }
-      lastDate = date;
-   };
-}
+//To delete
+//function waitForTime(dateLine) {
+//   var lastDate = ""; 
+//   while(1 < 2) {
+//      var date = new Date().toLocaleString("ru-RU");
+//      if (lastDate != date) {
+//         console.log(date + ". dateLine to wait: " + dateLine);
+//      }
+//      if (dateLine == date) {
+//         return;
+//      }
+//      lastDate = date;
+//   };
+//}
 
    Object.keys(newsData.allChannelsMap).sort().forEach(function(channelLabel, index) {
 
@@ -926,6 +947,7 @@ app.get("/getAllNews", function(request, response){
    console.log("request.query: " + request.query);
    var queryStartDateLine = request.query.startDateLine;
    var queryYoutubeDownload = request.query.youtube;
+   var testRun = request.query.testRun;
 
    console.log("getAllNews");
 
@@ -937,7 +959,8 @@ app.get("/getAllNews", function(request, response){
       getNewsResponse: response,
       filePathPart: "../app/",
       youtubeDownload: false,
-      downloadErrorsChannelsList: []
+      downloadErrorsChannelsList: [],
+      testRun: testRun
    };
    newsData.newsFilesData = {};
    newsData.newsFilesData["news1.data.js"] = {rootNodeId: "indx1_571"};
@@ -959,7 +982,8 @@ app.get("/getAllNews", function(request, response){
       getNewsResponse: response,
       filePathPart: "../app/",
       youtubeDownload: true,
-      downloadErrorsChannelsList: []
+      downloadErrorsChannelsList: [],
+      testRun: testRun
    };
    newsDataYoutube.newsFilesData = {};
    newsDataYoutube.newsFilesData["youtube1.data.js"] = {rootNodeId: "indx1_1005"};
@@ -1023,17 +1047,20 @@ app.get("/getAllNews", function(request, response){
       });      
    });
 
-   //Test data
-   //newsData.newsFilesData["youtube2.data.js"].channelsNodes = [];
-   //newsData.newsFilesData["youtube3.data.js"].channelsNodes = [];
-   //newsData.newsFilesData["youtube3.data.js"].channelsNodes = [
-      //{link: "https://www.youtube.com/user/JimmyKimmelLive/videos", 
-      //label: "Jimmy Kimmel Live - YouTube", id:"indx1_391"}];
-   //newsData.allChannelsMap = {};
-   //newsData.allChannelsMap["Jimmy Kimmel Live - YouTube"] = {
-   //channelNode: {link: "https://www.youtube.com/user/JimmyKimmelLive/videos", 
-   //label: "Jimmy Kimmel Live - YouTube", id:"indx1_391"},
-   //channelFileName: "youtube3.data.js"};
+   if (typeof newsData.testRun !== "undefined" &&
+      testRun == "true") {
+      //Test data
+      newsData.newsFilesData["youtube2.data.js"].channelsNodes = [];
+      newsData.newsFilesData["youtube3.data.js"].channelsNodes = [];
+      newsData.newsFilesData["youtube3.data.js"].channelsNodes = [
+         {link: "https://www.youtube.com/user/JimmyKimmelLive/videos", 
+         label: "Jimmy Kimmel Live - YouTube", id:"indx1_391"}];
+      newsData.allChannelsMap = {};
+      newsData.allChannelsMap["Jimmy Kimmel Live - YouTube"] = {
+      channelNode: {link: "https://www.youtube.com/user/JimmyKimmelLive/videos", 
+      label: "Jimmy Kimmel Live - YouTube", id:"indx1_391"},
+      channelFileName: "youtube3.data.js"};
+   }
 
    console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {
       return a.toLowerCase().localeCompare(b.toLowerCase());
@@ -1042,7 +1069,7 @@ app.get("/getAllNews", function(request, response){
    //var dataFileData = {"data": contents};
    //var answerLine = JSON.stringify(contents);
 
-   waitForTime(newsData.queryStartDate, true);
+   waitForTime(newsData, true);
 
    var allDownloadedData = newsDownloadProcess(newsData);
    //saveAllDownloadedDataToFile(allDownloadedData, filePath);
@@ -1234,6 +1261,7 @@ filesData["music1.data.js"] = "music1.data.js";
 filesData["music2.data.js"] = "music2.data.js";
 filesData["math.data.js"] = "math.data.js";
 filesData["code.data.js"] = "code.data.js";
+filesData["admin.data.js"] = "admin.data.js";
 filesData["engineering.data.js"] = "engineering.data.js";
 filesData["nature.data.js"] = "nature.data.js";
 filesData["timelines.data.js"] = "timelines.data.js";
@@ -1460,6 +1488,8 @@ app.get("/showNews", function(req, res){
       lines += "<b><a href='" + channelData.channelNode.link + "'>" + channelData.channelNode.label + "</a></b><br>\n";
       for (var j in channelData.filteredNews) {
          var news = channelData.filteredNews[j];
+         var newsId = news.link.replace("https://www.youtube.com/watch?v=","");
+         var thumbnailLink = "https://i.ytimg.com/vi/" + newsId + "/hqdefault.jpg";
 
          if (typeof news.pubDateCurrentLine !== "undefined") {
             var dateLine = news.pubDateCurrentLine;
@@ -1472,8 +1502,10 @@ app.get("/showNews", function(req, res){
                if (dateHour < selectHours) dateLine = "<b>" + dateLine + "</b>";
             }
             lines += "<a style='margin-left: 20px' href='" + news.link + "'>" + news.title + "</a> " + dateLine + "<br>\n";
+            lines += "<img style='width:200px;margin-left: 220px' src='" + thumbnailLink + "' border='0'/><br>\n";
          } else {
             lines += "<a style='margin-left: 20px' href='" + news.link + "'>" + news.title + "</a> " + news.pubDate + "<br>\n";
+            lines += "<img style='width:200px;margin-left: 220px' src='" + thumbnailLink + "' border='0'/><br>\n";
          }
       }
    }
